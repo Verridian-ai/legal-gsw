@@ -1,0 +1,25 @@
+\begin{table*}[t] % Use table* to span both columns
+\centering
+\small % Reduces font size slightly for better fit
+\setlength{\tabcolsep}{4pt} % Reduce column spacing
+\begin{tabular}{@{}llccccc@{}}
+\toprule
+\multirow{2}{*}{Metric} & \multirow{2}{*}{Method} & 0 Cues & 1 Cue & 2 Cues & 3-5 Cues & Overall \\
+& & (N=180) & (N=180) & (N=72) & (N=24) & (N=456) \\
+\midrule
+% --- Precision Block ---
+\multirow{2}{*}{\textbf{P}} & Vanilla LLM & 0.889 & \textbf{0.781} & \textbf{0.900} & 0.799 & \textbf{0.843} \\
+& GSW (Ours) & \textbf{0.939} & 0.751 & 0.804 & \textbf{0.854} & 0.841 \\
+\midrule % Line separating P from R
+% --- Recall Block ---
+\multirow{2}{*}{\textbf{R}} & Vanilla LLM & 0.889 & \textbf{0.919} & 0.813 & 0.781 & 0.883 \\
+& GSW (Ours) & \textbf{0.939} & 0.856 & \textbf{0.819} & \textbf{0.910} & \textbf{0.886} \\
+\midrule % Line separating R from F1
+% --- F1-Score Block ---
+\multirow{2}{*}{\textbf{F1}} & Vanilla LLM & 0.889 & \textbf{0.812} & \textbf{0.821} & 0.777 & \textbf{0.842} \\
+& GSW (Ours) & \textbf{0.939} & 0.745 & 0.784 & \textbf{0.857} & 0.834 \\
+\bottomrule
+\end{tabular}
+\caption{\textbf{Full EpBench (20-Chapter Book) Performance by Event Categories:} Precision (P), Recall (R), and F1-Score for Vanilla LLM vs. GSW across different event category complexities. (N=X) indicates questions per category.}
+\label{Table:appendix_metric_grouped_short_book}
+\end{table*}

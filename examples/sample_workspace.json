@@ -1,0 +1,139 @@
+{
+  "domain": "family",
+  "actors": {
+    "actor_001": {
+      "id": "actor_001",
+      "name": "John Smith",
+      "actor_type": "person",
+      "aliases": ["the husband", "Mr Smith", "the applicant"],
+      "roles": ["Husband", "Applicant", "Father"],
+      "states": [
+        {"name": "marital_status", "value": "separated", "start_date": "2020-03-01"},
+        {"name": "employment", "value": "accountant", "start_date": null}
+      ],
+      "source_chunk_ids": ["chunk_001", "chunk_003"]
+    },
+    "actor_002": {
+      "id": "actor_002",
+      "name": "Jane Smith",
+      "actor_type": "person",
+      "aliases": ["the wife", "Mrs Smith", "the respondent"],
+      "roles": ["Wife", "Respondent", "Mother", "Primary Carer"],
+      "states": [
+        {"name": "marital_status", "value": "separated", "start_date": "2020-03-01"},
+        {"name": "care_arrangement", "value": "primary_carer", "start_date": "2020-03-01"}
+      ],
+      "source_chunk_ids": ["chunk_001", "chunk_002"]
+    },
+    "actor_003": {
+      "id": "actor_003",
+      "name": "123 Smith Street, Parramatta",
+      "actor_type": "location",
+      "aliases": ["the matrimonial home", "the property"],
+      "roles": ["Matrimonial Home"],
+      "states": [],
+      "source_chunk_ids": ["chunk_001"]
+    },
+    "actor_004": {
+      "id": "actor_004",
+      "name": "1 March 2020",
+      "actor_type": "temporal",
+      "aliases": ["date of separation"],
+      "roles": [],
+      "states": [],
+      "source_chunk_ids": ["chunk_001"]
+    },
+    "actor_005": {
+      "id": "actor_005",
+      "name": "Family Court of Australia",
+      "actor_type": "organization",
+      "aliases": ["the Court"],
+      "roles": ["Court"],
+      "states": [],
+      "source_chunk_ids": ["chunk_002"]
+    }
+  },
+  "verb_phrases": {
+    "verb_001": {
+      "id": "verb_001",
+      "verb": "married",
+      "agent_id": "actor_001",
+      "patient_ids": ["actor_002"],
+      "temporal_id": null,
+      "spatial_id": null,
+      "is_implicit": false,
+      "source_chunk_id": "chunk_001"
+    },
+    "verb_002": {
+      "id": "verb_002",
+      "verb": "separated",
+      "agent_id": "actor_001",
+      "patient_ids": ["actor_002"],
+      "temporal_id": "actor_004",
+      "spatial_id": "actor_003",
+      "is_implicit": false,
+      "source_chunk_id": "chunk_001"
+    },
+    "verb_003": {
+      "id": "verb_003",
+      "verb": "filed_application",
+      "agent_id": "actor_001",
+      "patient_ids": [],
+      "temporal_id": null,
+      "spatial_id": null,
+      "is_implicit": false,
+      "source_chunk_id": "chunk_002"
+    }
+  },
+  "questions": {
+    "q_001": {
+      "id": "q_001",
+      "question_text": "What is John Smith's annual income?",
+      "question_type": "what",
+      "about_entity_id": "actor_001",
+      "answerable": true,
+      "answer_text": "$150,000 per annum",
+      "source_chunk_id": "chunk_001"
+    },
+    "q_002": {
+      "id": "q_002",
+      "question_text": "What is the value of the matrimonial home?",
+      "question_type": "what",
+      "about_entity_id": "actor_003",
+      "answerable": false,
+      "answer_text": null,
+      "source_chunk_id": "chunk_001"
+    },
+    "q_003": {
+      "id": "q_003",
+      "question_text": "When did the parties marry?",
+      "question_type": "when",
+      "about_entity_id": "actor_001",
+      "answerable": true,
+      "answer_text": "10 June 2010",
+      "source_chunk_id": "chunk_001"
+    }
+  },
+  "spatio_temporal_links": {
+    "link_001": {
+      "id": "link_001",
+      "linked_entity_ids": ["actor_001", "actor_002", "actor_004"],
+      "tag_type": "temporal",
+      "tag_value": "2020-03-01",
+      "source_chunk_id": "chunk_001",
+      "metadata": {"context_description": "Date of separation"}
+    },
+    "link_002": {
+      "id": "link_002",
+      "linked_entity_ids": ["actor_001", "actor_002", "actor_003"],
+      "tag_type": "spatial",
+      "tag_value": "123 Smith Street, Parramatta",
+      "source_chunk_id": "chunk_001",
+      "metadata": {"context_description": "Matrimonial home location"}
+    }
+  },
+  "created_at": "2024-11-25T12:00:00",
+  "last_updated": "2024-11-25T12:30:00",
+  "chunk_count": 3,
+  "document_count": 1
+}

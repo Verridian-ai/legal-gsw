@@ -1,0 +1,94 @@
+{
+  "domain_name": "specialized",
+  "total_documents": 26,
+  "date_range": {
+    "min": "1994-12-12",
+    "max": "2024-09-01"
+  },
+  "type_distribution": {
+    "secondary_legislation": 7,
+    "primary_legislation": 10,
+    "decision": 8,
+    "bill": 1
+  },
+  "jurisdiction_distribution": {
+    "south_australia": 3,
+    "tasmania": 5,
+    "western_australia": 3,
+    "new_south_wales": 7,
+    "queensland": 4,
+    "commonwealth": 4
+  },
+  "source_distribution": {
+    "south_australian_legislation": 3,
+    "tasmanian_legislation": 5,
+    "western_australian_legislation": 3,
+    "nsw_legislation": 3,
+    "nsw_caselaw": 4,
+    "queensland_legislation": 4,
+    "federal_court_of_australia": 3,
+    "high_court_of_australia": 1
+  },
+  "category_breakdown": {
+    "Spec_Coronial": 14,
+    "Spec_Mental_Health": 3,
+    "Spec_Maritime": 4,
+    "Spec_Aviation": 5
+  },
+  "year_distribution": {
+    "2020": 1,
+    "2016": 1,
+    "2024": 2,
+    "2021": 1,
+    "2022": 3,
+    "1999": 1,
+    "2017": 1,
+    "2023": 2,
+    "2011": 1,
+    "2019": 1,
+    "1994": 1,
+    "2005": 1,
+    "1997": 1,
+    "2014": 1,
+    "2010": 3,
+    "2003": 2,
+    "1996": 1
+  },
+  "court_codes": {
+    "NSWSC": 3,
+    "NSWLC": 1,
+    "FCA": 3,
+    "HCA": 1
+  },
+  "text_stats": {
+    "min": 1962,
+    "max": 1962,
+    "mean": 1962,
+    "median": 1962,
+    "std": 0
+  },
+  "legal_terms": {},
+  "sample_citations": [
+    "Coroners Regulations 2020 (SA)",
+    "Coroners (Fees, Expenses and Allowances) Regulations 2016 (Tas)",
+    "Coroners Act 1996 (WA)",
+    "Controlled Substances (Youth Treatment Orders) Regulations 2021 (SA)",
+    "Coroners Regulation 2021 (2021-211) (NSW)",
+    "FAIRFAX PUBLICATIONS PTY LTD v ABERNETHY [1999] NSWSC 826",
+    "Sentencing Amendment (Drug Treatment Orders) Act 2016 (Repealed) (Tas)",
+    "Penalties and Sentences (Drug and Alcohol Treatment Orders) and Other Legislation Amendment Bill 2017 (Qld)",
+    "Coroners Act 2003 (SA)",
+    "Inquest into the death of Evan Greenwood [2011] NSWLC 37",
+    "Kitchener v Magistrate Thomas in his capacity as a Coroner [2019] NSWSC 701",
+    "Coroners Regulation 2015 (Qld)",
+    "Vice-Admiralty Vexatious Arrests Act 1901 (1902 No 3) (NSW)",
+    "Civil Aviation (Carriers' Liability) Act 1961 (WA)",
+    "Coroners Regulations 1997 (WA)",
+    "Civil Aviation Safety Authority v Marsh [2014] FCA 1253",
+    "Coroners Rules 2006 (Tas)",
+    "Civil Aviation (Carriers' Liability) Act 1963 (Tas)",
+    "Civil Aviation (Carriers\u2019 Liability) Act 1967 (NSW)",
+    "Brisbane Slipways Operations Pty Ltd v Pantaloni [2010] FCA 654"
+  ],
+  "generated_at": "2025-11-25T11:38:55.346331"
+}

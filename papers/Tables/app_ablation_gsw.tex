@@ -1,0 +1,81 @@
+% \begin{table}[h] % Or \begin{table*} if it needs to span columns; '!' helps with placement
+% \caption{\textbf{Ablation Study of GSW Components on EpBench (200-Chapter Book):} Performance across different event categories (Precision, Recall, F1-Score). (N=X) indicates questions per category. Full GSW model results (at the bottom) are for reference from Table~\ref{Table:mainres_with_gsw_variants_filled_sep}.}
+% \label{Table:gsw_ablation_study_fully_filled} % Updated label
+% \centering
+% \small
+% \setlength{\tabcolsep}{4pt} % As per your draft, adjust if needed
+% \begin{tabular}{@{}llcccccc@{}}
+% \toprule
+% \multirow{2}{*}{Metric} & \multirow{2}{*}{GSW Configuration / Ablation} & 0 Events & 1 Event & 2 Events & 3-5 Events & 6+ Events & Overall \\
+% & & (N=150) & (N=150) & (N=90) & (N=98) & (N=60) & (N=548) \\
+% \midrule
+% % --- Precision Block ---
+% \multirow{5}{*}{\textbf{P}} 
+% & w/o Space/Time Linking & 0.978 & 0.799 & 0.814 & 0.851 & 0.854 & 0.868 \\
+% & QA Input: Verb Phrases & 0.939 & 0.839 & 0.807 & 0.896 & 0.874 & 0.878 \\
+% & Retrieval: Str.Match, No reranking & 0.967 & 0.773 & 0.860 & 0.872 & 0.932 & 0.879 \\ 
+% & Retrieval: Emb. Match, No reranking & 0.922 & 0.792 & 0.797 & 0.874 & 0.876 & 0.855 \\ 
+% & Retrieval: NER emb, no reranking & 0.944 & 0.747 & 0.823 & 0.872 & 0.854 & 0.854 \\
+% \midrule 
+% % --- Recall Block ---
+% \multirow{5}{*}{\textbf{R}} 
+% & w/o Space/Time Linking & 0.978 & 0.800 & 0.810 & 0.738 & 0.723 & 0.827 \\
+% & QA Input: Verb Phrases & 0.939 & 0.766 & 0.644 & 0.674 & 0.551 & 0.747 \\
+% & Retrieval: Str.Match, No reranking & 0.967 & 0.834 & 0.850 & 0.819 & 0.822 & 0.867 \\
+% & Retrieval: Emb. Match, No reranking & 0.922 & 0.820 & 0.833 & 0.825 & 0.781 & 0.845 \\
+% & Retrieval: NER emb, no reranking & 0.944 & 0.710 & 0.750 & 0.721 & 0.624 & 0.768 \\
+% \midrule 
+% % --- F1-Score Block ---
+% \multirow{5}{*}{\textbf{F1}} 
+% & w/o Space/Time Linking & 0.978 & 0.731 & 0.764 & 0.762 & 0.761 & 0.811 \\
+% & QA Input: Verb Phrases & 0.939 & 0.733 & 0.633 & 0.719 & 0.621 & 0.754 \\
+% & Retrieval: Str.Match, No reranking & 0.967 & 0.748 & 0.826 & 0.823 & 0.859 & 0.846 \\
+% & Retrieval: Emb. Match, No reranking & 0.922 & 0.726 & 0.788 & 0.827 & 0.810 & 0.817 \\
+% & Retrieval: NER emb, No reranking & 0.944 & 0.629 & 0.717 & 0.748 & 0.693 & 0.756 \\
+% \bottomrule
+% \end{tabular}
+% \end{table}
+
+\begin{table*}[t] % Use table* to span both columns
+\centering
+\small
+\setlength{\tabcolsep}{3pt} % Reduce spacing
+\begin{tabular}{@{}llcccccc@{}}
+\toprule
+\multirow{2}{*}{Metric} & \multirow{2}{*}{GSW Configuration / Ablation} & 0 Events & 1 Event & 2 Events & 3-5 Events & 6+ Events & Overall \\
+& & (N=150) & (N=150) & (N=90) & (N=98) & (N=60) & (N=548) \\
+\midrule
+% --- Precision Block ---
+\multirow{5}{*}{\textbf{P}} 
+& w/o Space/Time Linking & 0.978 & 0.799 & 0.814 & 0.851 & 0.854 & 0.868 \\
+& QA Input: Verb Phrases & 0.939 & 0.839 & 0.807 & 0.896 & 0.874 & 0.878 \\
+& Retrieval: Str.Match, No reranking & 0.967 & 0.773 & 0.860 & 0.872 & 0.932 & 0.879 \\ 
+& Retrieval: Emb. Match, No reranking & 0.922 & 0.792 & 0.797 & 0.874 & 0.876 & 0.855 \\ 
+& Retrieval: NER emb, no reranking & 0.944 & 0.747 & 0.823 & 0.872 & 0.854 & 0.854 \\
+\cmidrule(lr){2-8} % Added separating line
+& \textbf{GSW (Full)} & \textbf{0.978} & \textbf{0.755} & \textbf{0.810} & \textbf{0.878} & \textbf{0.891} & \textbf{0.865} \\
+\midrule 
+% --- Recall Block ---
+\multirow{5}{*}{\textbf{R}} 
+& w/o Space/Time Linking & 0.978 & 0.800 & 0.810 & 0.738 & 0.723 & 0.827 \\
+& QA Input: Verb Phrases & 0.939 & 0.766 & 0.644 & 0.674 & 0.551 & 0.747 \\
+& Retrieval: Str.Match, No reranking & 0.967 & 0.834 & 0.850 & 0.819 & 0.822 & 0.867 \\
+& Retrieval: Emb. Match, No reranking & 0.922 & 0.820 & 0.833 & 0.825 & 0.781 & 0.845 \\
+& Retrieval: NER emb, no reranking & 0.944 & 0.710 & 0.750 & 0.721 & 0.624 & 0.768 \\
+\cmidrule(lr){2-8} % Added separating line
+& \textbf{GSW (Full)} & \textbf{0.978} & \textbf{0.863} & \textbf{0.868} & \textbf{0.892} & \textbf{0.822} & \textbf{0.894} \\
+\midrule 
+% --- F1-Score Block ---
+\multirow{5}{*}{\textbf{F1}} 
+& w/o Space/Time Linking & 0.978 & 0.731 & 0.764 & 0.762 & 0.761 & 0.811 \\
+& QA Input: Verb Phrases & 0.939 & 0.733 & 0.633 & 0.719 & 0.621 & 0.754 \\
+& Retrieval: Str.Match, No reranking & 0.967 & 0.748 & 0.826 & 0.823 & 0.859 & 0.846 \\
+& Retrieval: Emb. Match, No reranking & 0.922 & 0.726 & 0.788 & 0.827 & 0.810 & 0.817 \\
+& Retrieval: NER emb, No reranking & 0.944 & 0.629 & 0.717 & 0.748 & 0.693 & 0.756 \\
+\cmidrule(lr){2-8} % Added separating line
+& \textbf{GSW (Full)} & \textbf{0.978} & \textbf{0.745} & \textbf{0.806} & \textbf{0.867} & \textbf{0.834} & \textbf{0.850} \\
+\bottomrule
+\end{tabular}
+\caption{\textbf{Ablation Study of GSW Components on EpBench (200-Chapter Book):} Performance across different event categories (Precision, Recall, F1-Score). (N=X) indicates questions per category. Full GSW model results (at the bottom) are for reference from Table 2 in the main paper.}
+\label{Table:gsw_ablation_study_fully_filled}
+\end{table*}

@@ -1,0 +1,24 @@
+\begin{table*}[!htbp] % table* spans text width in two-column format
+  \centering
+  \scriptsize % Use smaller font
+  % 'l' for Query ID (left-aligned).
+  % The two X columns will share the remaining width and allow text wrapping.
+  % >{\raggedright\arraybackslash} ensures left-aligned text within the wrapping X columns.
+  \begin{tabularx}{\linewidth}{@{}l >{\raggedright\arraybackslash}X >{\raggedright\arraybackslash}X@{}}
+    \toprule
+    \textbf{Query ID} & \textbf{Query Text} & \textbf{Ground Truth Answer} \\
+    \midrule
+    Q1 & Consider all events that Jackson Ramos has been involved in. List all the locations where these events took place, without mentioning the events themselves. & High Line, Snug Harbor Cultural Center, Central Park, One World Trade Center, Ellis Island \\
+    \addlinespace % Adds a little vertical space between query entries
+    Q2 &  Reflect on the experiences of Carter Stewart related to Scientific Conference. List all the unique locations where these events took place, without mentioning the events themselves. & Bethpage Black Course, Metropolitan Museum of Art \\
+    \addlinespace
+    Q3 &Consider all events that Ezra Edwards has been involved in. List all the locations where these events took place, without mentioning the events themselves. & Water Mill Museum, Port Jefferson, Yankee Stadium, New York Botanical Garden, Brooklyn Bridge, Bethpage Black Course, One World Trade Center \\
+    \addlinespace
+    Q4 & Recall the events related to Tech Hackathon that occurred on March 23, 2025. List all the locations where these events took place, without describing the events themselves. & Yankee Stadium, Water Mill Museum, Woolworth Building, Queensboro Bridge \\
+    \addlinespace
+    Q5 & Recall the events related to Tech Hackathon that occurred on November 13, 2026. List all the locations where these events took place, without describing the events themselves. & Trinity Church, Woolworth Building, Statue of Liberty, Fire Island National Seashore \\
+    \bottomrule
+  \end{tabularx}
+  \caption{Selected Queries and Ground Truth Answers for Qualitative Analysis}
+  \label{tab:qual_queries_answers}
+\end{table*}

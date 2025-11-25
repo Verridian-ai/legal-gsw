@@ -1,0 +1,26 @@
+\begin{table}[t]
+\centering
+% \footnotesize            
+\scriptsize
+\setlength{\tabcolsep}{3pt} % keep narrow cols
+\renewcommand{\arraystretch}{1.05} % a bit more vertical space
+\begin{tabular}{@{}lccc@{}}
+\toprule
+\textbf{Method} & \textbf{Precision} & \textbf{Recall} & \textbf{F1} \\
+\midrule
+Embedding RAG
+  & $\underline{0.827}\,\pm\,0.014$ & $\underline{0.688}\,\pm\,0.015$ & $\underline{0.675}\,\pm\,0.015$ \\
+GraphRAG
+  & $0.761\,\pm\,0.017$ & $0.548\,\pm\,0.017$ & $0.544\,\pm\,0.017$ \\
+HippoRAG2
+  & $0.759\,\pm\,0.016$ & $0.648\,\pm\,0.016$ & $0.635\,\pm\,0.015$ \\
+LightRAG
+  & $0.649\,\pm\,0.018$ & $0.497\,\pm\,0.017$ & $0.494\,\pm\,0.016$ \\
+\cmidrule(lr){1-4}
+GSW (Ours) 
+  & $\mathbf{0.830}\,\pm\,0.010$ & $\mathbf{0.796}\,\pm\,0.009$ & $\mathbf{0.773}\,\pm\,0.009$ \\
+\bottomrule
+\end{tabular}
+\caption{\textbf{Overall performance on Epbench-2000 (2000-Chapters Book).} The same convention as in Table \ref{Table:epbench_200_bootstrap} is followed. For a more descriptive full table please refer to \textbf{Appendix F}.}
+\label{tab:epbench_2000_short}
+\end{table}

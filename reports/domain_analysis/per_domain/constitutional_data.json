@@ -1,0 +1,65 @@
+{
+  "domain_name": "constitutional",
+  "total_documents": 14,
+  "date_range": {
+    "min": "2008-10-02",
+    "max": "2024-08-21"
+  },
+  "type_distribution": {
+    "secondary_legislation": 5,
+    "decision": 8,
+    "primary_legislation": 1
+  },
+  "jurisdiction_distribution": {
+    "tasmania": 6,
+    "commonwealth": 7,
+    "new_south_wales": 1
+  },
+  "source_distribution": {
+    "tasmanian_legislation": 6,
+    "high_court_of_australia": 6,
+    "federal_court_of_australia": 1,
+    "nsw_caselaw": 1
+  },
+  "category_breakdown": {
+    "Constitutional_Federal": 10,
+    "Constitutional_State": 4
+  },
+  "year_distribution": {
+    "2020": 4,
+    "2018": 1,
+    "2024": 1,
+    "2023": 1,
+    "2008": 1
+  },
+  "court_codes": {
+    "HCA": 6,
+    "FCAFC": 1,
+    "NSWDC": 1
+  },
+  "text_stats": {
+    "min": 735,
+    "max": 735,
+    "mean": 735,
+    "median": 735,
+    "std": 0
+  },
+  "legal_terms": {},
+  "sample_citations": [
+    "Proclamation under the Government Procurement Review (International Free Trade Agreements) Act 2019 (Tas)",
+    "New South Wales v Commonwealth [1975] HCA 58",
+    "Administrative Arrangements (Removal of Inconsistency) Order 2018 (Tas)",
+    "Government Procurement Review (International Free Trade Agreements) (Relevant Government Agencies) Order 2024 (Tas)",
+    "Hooper v Hooper [1955] HCA 15",
+    "Government Procurement Review (International Free Trade Agreements) (Relevant Government Agencies) Order 2020 (Tas)",
+    "Administrative Arrangements (Removal of Inconsistency) Order 2020 (Tas)",
+    "Elliott-Carde v McDonald's Australia Limited [2023] FCAFC 162",
+    "Clunies-Ross v Commonwealth [1984] HCA 65",
+    "Government Procurement Review (International Free Trade Agreements) Act 2019 (Tas)",
+    "Leibeck v RMQ Contracting Pty Ltd [2008] NSWDC 239",
+    "Owens v Commonwealth [1991] HCA 20",
+    "McWaters v Day [1989] HCA 59",
+    "R v Kirby; Ex parte Boilermakers' Society of Australia [1956] HCA 10"
+  ],
+  "generated_at": "2025-11-25T11:38:52.381472"
+}

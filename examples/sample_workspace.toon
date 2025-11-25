@@ -1,0 +1,22 @@
+# GSW Workspace: family
+
+Actors[5]{id,name,type,roles,states}
+actor_001,John Smith,person,Husband|Applicant|Father,marital_status=separated|employment=accountant
+actor_002,Jane Smith,person,Wife|Respondent|Mother|Primary Carer,marital_status=separated|care_arrangement=primary_carer
+actor_003,"123 Smith Street, Parramatta",location,Matrimonial Home,
+actor_004,1 March 2020,temporal,,
+actor_005,Family Court of Australia,organization,Court,
+
+VerbPhrases[3]{id,verb,agent,patients,temporal,spatial,implicit}
+verb_001,married,actor_001,actor_002,,,0
+verb_002,separated,actor_001,actor_002,actor_004,actor_003,0
+verb_003,filed_application,actor_001,,,,0
+
+Questions[3]{id,about,question,answered,answer}
+q_001,actor_001,What is John Smith's annual income?,1,$150000 per annum
+q_002,actor_003,What is the value of the matrimonial home?,0,
+q_003,actor_001,When did the parties marry?,1,10 June 2010
+
+Links[2]{id,entities,type,value}
+link_001,actor_001|actor_002|actor_004,temporal,2020-03-01
+link_002,actor_001|actor_002|actor_003,spatial,123 Smith Street Parramatta

@@ -1,0 +1,21 @@
+{
+   "sources" : [
+      {
+         "usage" : "toplevel",
+         "filename" : "gsw_aaai_submission.tex"
+      },
+      {
+         "usage" : "ignore",
+         "filename" : "aaai2026.bst"
+      },
+      {
+         "usage" : "ignore",
+         "filename" : "custom.bib"
+      }
+   ],
+   "spec_version" : 1,
+   "texlive_version" : "2025",
+   "process" : {
+      "compiler" : "pdflatex"
+   }
+}

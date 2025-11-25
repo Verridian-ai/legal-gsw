@@ -1,0 +1,107 @@
+{
+  "domain_name": "family",
+  "total_documents": 54,
+  "date_range": {
+    "min": "1997-07-17",
+    "max": "2024-07-30"
+  },
+  "type_distribution": {
+    "decision": 30,
+    "bill": 4,
+    "primary_legislation": 10,
+    "secondary_legislation": 10
+  },
+  "jurisdiction_distribution": {
+    "commonwealth": 13,
+    "south_australia": 4,
+    "tasmania": 9,
+    "new_south_wales": 19,
+    "western_australia": 5,
+    "queensland": 4
+  },
+  "source_distribution": {
+    "high_court_of_australia": 10,
+    "south_australian_legislation": 4,
+    "tasmanian_legislation": 9,
+    "nsw_caselaw": 17,
+    "nsw_legislation": 2,
+    "western_australian_legislation": 5,
+    "queensland_legislation": 4,
+    "federal_court_of_australia": 3
+  },
+  "category_breakdown": {
+    "Family_General": 19,
+    "Family_Parenting": 17,
+    "Family_Violence": 13,
+    "Family_Child_Protection": 5
+  },
+  "year_distribution": {
+    "2015": 1,
+    "2024": 7,
+    "2009": 3,
+    "2005": 3,
+    "2018": 3,
+    "2014": 3,
+    "1997": 1,
+    "2021": 4,
+    "2008": 1,
+    "2019": 2,
+    "2023": 3,
+    "2022": 2,
+    "2004": 1,
+    "2006": 1,
+    "2010": 2,
+    "2002": 1,
+    "2001": 1,
+    "2011": 1
+  },
+  "court_codes": {
+    "HCA": 10,
+    "NSWSC": 9,
+    "FCA": 3,
+    "NSWLEC": 1,
+    "NSWDC": 5
+  },
+  "text_stats": {
+    "min": 32391,
+    "max": 153862,
+    "mean": 93126.5,
+    "median": 93126.5,
+    "std": 85892.96781751112
+  },
+  "legal_terms": {
+    "sentencing": 1,
+    "conviction": 1,
+    "appeal": 2,
+    "guilty": 1,
+    "breach": 1,
+    "liability": 1,
+    "evidence": 1,
+    "costs": 1,
+    "order": 1,
+    "judgment": 1
+  },
+  "sample_citations": [
+    "Re Colina; Ex parte Torney [1999] HCA 57",
+    "New Women's and Children's Hospital (Relocation of SA Police Facilities) Amendment Bill 2023 (SA)",
+    "Family Violence Amendment Act 2015 (Tas)",
+    "Department of Communities and Justice (DCJ) and Paul Robertson and Sadie Ford [2024] NSWChC 13",
+    "Infants\u2019 Custody and Settlements Act 1899 (NSW)",
+    "Family Violence Reforms Act 2022 (Tas)",
+    "Proclamation under the Family Violence Act 2004 (Tas)",
+    "Family Court (Surrogacy) Rules 2009 (WA)",
+    "Childrens Court Rules 2016 (Qld)",
+    "Family Violence Reforms Act 2017 (Repealed) (Tas)",
+    "In the matter of VE Group Pty Limited ACN 137 596 117 [2014] NSWSC 159",
+    "Manson v Della-Bosca & Anor [2014] NSWSC 1232",
+    "Re: Maas, Nicholas Christopher & Ex Parte: Maas, Jill Elizabeth v Brien, Richard Campbell & Ors [1997] FCA 625",
+    "Family Court Rules 2021 (WA)",
+    "Justices Amendment (Family Violence) Rules 2005 (Tas)",
+    "Intervention Orders (Prevention of Abuse) Act 2009 (SA)",
+    "Guardianship and Custody of Infants Act 1934 (Tas)",
+    "Mullane v Mullane [1983] HCA 4",
+    "Fountain v Alexander [1982] HCA 16",
+    "Intervention Orders (Prevention of Abuse) (Section 31 Offences) Amendment Bill 2024 (SA)"
+  ],
+  "generated_at": "2025-11-25T11:38:52.498482"
+}

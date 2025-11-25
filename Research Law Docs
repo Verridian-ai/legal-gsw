@@ -1,0 +1,329 @@
+The Australian Jurisdictional Matrix: An Exhaustive Analysis of Constitutional, Statutory, and Common Law DomainsExecutive Summary and Jurisprudential OverviewThe Australian legal system represents a sophisticated, hybridised model of governance that, while rooted in the Westminster tradition of responsible government and the common law, is fundamentally constrained by a written federal Constitution. This report provides a comprehensive, expert-level analysis of the primary domains of Australian law as they stand in the 2024–2025 period. It explores the intricate interplay between the Commonwealth and State jurisdictions, the increasing dominance of statutory codes over common law principles, and the High Court of Australia’s role as the ultimate arbiter of legislative validity.The analysis reveals a legal landscape in the midst of a profound structural transformation. The period from 2023 to 2025 has witnessed the most significant reshaping of Australia’s administrative and industrial legal architecture in decades. The abolition of the Administrative Appeals Tribunal (AAT) and the establishment of the Administrative Review Tribunal (ART) marks a paradigm shift in the mechanisms of government accountability. Simultaneously, the "Closing Loopholes" industrial relations reforms and the introduction of a statutory tort for serious invasions of privacy signal a departure from laissez-faire market principles toward a more regulated, rights-protective framework.This document dissects these changes through a rigorous examination of statutory texts, landmark judicial decisions, and the theoretical underpinnings of the Australian federation. It serves as a definitive reference for legal practitioners, distinguishing between the nuances of federal supremacy, the entrenched jurisdiction of State Supreme Courts, and the emerging frontiers of digital and environmental law.Part I: The Constitutional Architecture and the FederationThe foundation of all legal authority in Australia is the Commonwealth of Australia Constitution Act 1900 (Imp). Unlike the unwritten constitution of the United Kingdom, Australia’s written Constitution rigidly defines the boundaries of power, creating a federal system where sovereignty is shared—and often contested—between the Commonwealth and the States.11.1 The Federal Hierarchy and the Division of PowersThe Australian Federation, established in 1901, was a compromise designed to unite six self-governing British colonies while preserving their individual identities. This historical compromise is legally enshrined in the division of legislative powers.The Section 51 Enumeration and Commonwealth HegemonyThe Constitution does not grant the Commonwealth Parliament a general power to legislate for the "peace, order, and good government" of the nation in all matters. Instead, Section 51 lists 39 distinct "heads of power" (placita) upon which the Commonwealth may legislate.1 These include defence, external affairs, interstate trade and commerce, corporations, and taxation.Residual Power of the States: Any area of law not enumerated in Section 51 remains the domain of the State Parliaments.1 Consequently, the States retain primary responsibility for essential services such as police, public hospitals, education, roads, and criminal law.The Shift in Balance: While the drafters of the Constitution intended a coordinate federalism where States remained powerful, the High Court’s interpretation of Section 51 has significantly centralized power. The expansive reading of the corporations power (s 51(xx))—allowing the Commonwealth to regulate the employment conditions, trading activities, and financial dealings of constitutional corporations—has enabled federal intrusion into areas traditionally reserved for the States, such as industrial relations.The Supremacy Mechanism: Section 109The interaction between Federal and State jurisdiction is governed by the supremacy clause found in Section 109 of the Constitution. This section provides that: "When a law of a State is inconsistent with a law of the Commonwealth, the latter shall prevail, and the former shall, to the extent of the inconsistency, be invalid".3Direct vs. Indirect Inconsistency: The High Court has identified two types of inconsistency:Direct Inconsistency: Where it is impossible to obey both laws, or where one law confers a right that the other takes away.Indirect Inconsistency ("Covering the Field"): This is the more potent form of federal supremacy. Even if two laws can theoretically coexist, Section 109 applies if the Commonwealth Parliament intends its legislation to be the complete, exhaustive, and exclusive statement of the law on a particular subject matter.3 If the Commonwealth is found to have "covered the field," any State law entering that field—even if complementary—is rendered inoperative.Analytical Insight: Section 109 does not repeal State laws; it renders them "inoperative" for the duration of the inconsistency. If the Federal law is repealed or amended to remove the inconsistency, the State law revives. This creates a "latent" layer of State legislation that remains on the books but is dormant under the shadow of Federal statutes.1.2 The Separation of Powers DoctrineThe Australian Constitution mandates a separation of powers, but its application differs significantly between the Federal and State levels.The Federal Stricture: The Boilermakers DoctrineAt the Commonwealth level, the separation of powers is strict and constitutionally entrenched. Derived from the text of Chapters I (Parliament), II (Executive), and III (Judicature), the High Court in R v Kirby; Ex parte Boilermakers' Society of Australia (1956) established two fundamental prohibitions 5:No Non-Judicial Power for Courts: Federal courts created under Chapter III cannot exercise power that is not "judicial" in nature (e.g., they cannot exercise administrative or legislative power).No Judicial Power for Non-Courts: The judicial power of the Commonwealth can only be exercised by Chapter III courts.This doctrine ensures the independence of the federal judiciary. Federal judges are appointed by the Governor-General in Council and possess tenure until the age of 70, protected from removal except on grounds of "proved misbehaviour or incapacity" upon an address by both Houses of Parliament.5The State Flexibility and the Kable ConstraintUnlike the Commonwealth, State Constitutions generally do not mandate a strict separation of powers. Historically, this meant State Parliaments could vest judicial power in tribunals or vest administrative power in courts. However, this flexibility was curtailed by the landmark decision in Kable v Director of Public Prosecutions (NSW) (1996).The Kable Doctrine: The High Court held that because State Supreme Courts are vested with federal jurisdiction under the Constitution (specifically s 77(iii)), they are part of an integrated national court system. Consequently, State Parliaments cannot legislate to confer functions on State courts that are "incompatible" with their institutional integrity.6 In Kable, legislation designed to detain a specific individual (Gregory Kable) was deemed invalid because it enlisted the Supreme Court to act as an arm of the executive, undermining public confidence in the judiciary.71.3 The Entrenched Jurisdiction of Review: The Kirk PrincipleBuilding on Kable, the High Court’s decision in Kirk v Industrial Court of New South Wales (2010) represents a cornerstone of modern Australian constitutional law. The Court held that the "supervisory jurisdiction" of State Supreme Courts to review decisions of inferior courts and tribunals for jurisdictional error is a defining characteristic of those courts guaranteed by Chapter III of the Constitution.6Key Implication: This means that State Parliaments cannot enact "privative clauses" (laws that attempt to prevent judicial review) that strip Supreme Courts of their power to issue prerogative relief (such as certiorari) for jurisdictional error. Kirk effectively constitutionalized a minimum standard of judicial review across the entire continent, ensuring that no executive decision-maker or inferior court is beyond the reach of the law. This creates a unified common law of judicial review that transcends the federal/state divide.61.4 The Implied Freedom of Political CommunicationWhile the Australian Constitution lacks a comprehensive Bill of Rights, the High Court has recognized an implied freedom of political communication. Originating in Nationwide News v Wills (1992) and solidified in Lange v Australian Broadcasting Corporation (1997), this freedom is derived from the Constitution’s requirement for representative and responsible government (ss 7, 24, 64, 128).10Nature of the Freedom: It is not a personal right to free speech (like the US First Amendment). Rather, it is an immunity from legislative power. A law that burdens political communication is invalid unless it is "reasonably appropriate and adapted" to serve a legitimate end.10The McCloy Test: In recent years, the High Court has refined the test for validity (in McCloy v NSW) to include a structured proportionality analysis: is the law suitable, necessary, and adequate in its balance?Part II: Administrative Law and the Machinery of JusticeAdministrative law in Australia regulates the relationship between the government and the governed, ensuring that executive power is exercised within legal limits. The period 2024–2025 has been transformative for this domain.2.1 The New Era of Merits Review: From AAT to ARTFor nearly 50 years, the Administrative Appeals Tribunal (AAT) served as the primary body for reviewing the merits of Commonwealth administrative decisions. However, concerns regarding efficiency, backlogs, and politicized appointments led to its abolition and replacement by the Administrative Review Tribunal (ART) in 2024.12The Administrative Review Tribunal Act 2024 (Cth)Commencing on 14 October 2024, the ART Act establishes a new federal administrative review body designed to be "user-focused, efficient, accessible, independent and fair".13FeatureAdministrative Appeals Tribunal (AAT)Administrative Review Tribunal (ART)EstablishmentAdministrative Appeals Tribunal Act 1975Administrative Review Tribunal Act 2024MembershipCriticized for "jobs for mates" (political appointments).Mandated merit-based appointment process; re-establishment of Administrative Review Council.12StructureMultiple divisions (Migration, Social Services, etc.).Unified structure with a new Guidance and Appeals Panel (GAP).Review Standard"Correct or preferable decision.""Correct or preferable decision" (Merits Review maintained).The Guidance and Appeals Panel (GAP): A critical innovation in the ART is the GAP. This panel acts as a second tier of review within the Tribunal itself for decisions that raise significant issues of law or fact. This mechanism aims to resolve inconsistencies in decision-making at the tribunal level before they reach the courts, promoting systemic fairness.13Transitional ArrangementsThe transition from AAT to ART was managed through the Administrative Review Tribunal (Consequential and Transitional Provisions No. 1 & 2) Acts 2024. These Acts amended over 138 Commonwealth statutes—covering 93% of the AAT's caseload—to ensure that existing rights of review were seamlessly transferred to the new body.12 Cases pending before the AAT on the transition date were automatically transferred to the ART, ensuring no litigant fell into a legislative void.132.2 Judicial Review: The Check on LegalityWhile the ART conducts "merits review" (standing in the shoes of the decision-maker to make the correct decision), the courts conduct judicial review (determining the legality of the decision-making process).Sources of JurisdictionConstitutional Writs (Section 75(v)): The High Court has original jurisdiction to issue writs of mandamus, prohibition, or injunction against an "officer of the Commonwealth." This is the "entrenched minimum provision" of judicial review that Parliament cannot remove.Section 39B Judiciary Act 1903: This confers the High Court’s s 75(v) jurisdiction upon the Federal Court of Australia, making it the primary forum for federal judicial review.15ADJR Act 1977: The Administrative Decisions (Judicial Review) Act 1977 (Cth) codified the common law grounds of review (e.g., breach of natural justice, irrelevant considerations, error of law).15 While the ADJR Act is easier to use (requiring reasons for decisions), it does not apply to all decisions (e.g., decisions by the Governor-General or those listed in Schedule 1).Jurisdictional Error and Plaintiff S157The concept of "jurisdictional error" is the central organizing principle of Australian administrative law. In Plaintiff S157/2002 v Commonwealth (2003), the High Court confirmed that a privative clause cannot protect a decision infected by jurisdictional error because such a decision is, in law, "no decision at all." Therefore, a purported decision that exceeds the decision-maker's jurisdiction is a nullity, and the courts retain the power to declare it so.Part III: Private Law – Obligations, Property, and TortsThe "common law of Australia" is a single, unified body of law enunciated by the High Court.16 However, statutory modifications by State Parliaments have created significant divergences in areas such as torts and property.3.1 Contract Law and the Doctrine of EstoppelAustralian contract law generally follows the English model (Offer, Acceptance, Consideration), but it has diverged radically in the area of estoppel.Waltons Stores v Maher: The Unification of EstoppelThe seminal High Court decision in Waltons Stores (Interstate) Ltd v Maher (1988) revolutionized the law of promises. In English law, promissory estoppel was limited to a "shield" (a defence). In Australia, Waltons Stores established that estoppel could function as a "sword" (a cause of action).18The Principle: Where one party induces an assumption in another, and the other party relies on that assumption to their detriment, it may be unconscionable for the first party to depart from that assumption.The Case: Waltons negotiated to lease land from Maher. Maher demolished a building on the assumption the lease would proceed. Waltons, knowing this, delayed signing and then withdrew. The High Court held Waltons was estopped from denying the contract existed.Jurisdictional Nuance: While Waltons Stores is High Court authority, the NSW Court of Appeal has historically been more conservative, occasionally attempting to limit the "sword" application. However, recent jurisprudence reaffirms that estoppel is a substantive source of rights in Australia, independent of contract.203.2 The Law of Torts and Civil Liability ReformTort law, particularly negligence, was heavily modified by the "Civil Liability Acts" (CLA) passed in each State in the early 2000s to address the "insurance crisis."The Civil Liability Act 2002 (NSW) FrameworkThe CLA provides a statutory framework that overrides the common law in key areas.21Duty of Care: The common law "salient features" test (from Sullivan v Moody) determines if a duty exists.Breach (Section 5B): The CLA codifies the test for breach. A person is not negligent unless:The risk was foreseeable.The risk was "not insignificant" (a higher threshold than the common law "far-fetched and fanciful").A reasonable person would have taken precautions.23Causation (Section 5D): The Act splits causation into two inquiries:Factual Causation: The "but for" test (would the harm have occurred but for the negligence?).Scope of Liability: A normative question—is it appropriate for the scope of the negligent person's liability to extend to the harm caused?.22Statutory Defences and Recreational RiskThe CLA strengthens protections for defendants:Obvious Risk (s 5F, 5G, 5H): There is no duty to warn of an "obvious risk." If a risk is obvious, the plaintiff is presumed to be aware of it.22Recreational Activities (s 5L, 5M): Defendants are not liable for harm suffered from the materialization of an "obvious risk" of a "dangerous recreational activity".223.3 Defamation Reform: Adapting to the Digital AgeAustralian defamation law is uniform across States via the Model Defamation Provisions. Recent reforms (Stage 1 in 2021 and Stage 2 in 2024) have modernized the tort.Stage 1: The Serious Harm ThresholdIntroduced to prevent trivial claims, Section 10A requires a plaintiff to prove that the publication has caused, or is likely to cause, serious harm to their reputation. For corporations (which are generally barred from suing unless they are small non-profits), they must prove serious financial loss.Stage 2: Digital Intermediaries and Privilege (2024)Commencing in mid-2024, the Stage 2 reforms address the liability of search engines and social media platforms (digital intermediaries).24Passive Intermediaries: New exemptions protect intermediaries who play a passive role (e.g., cloud storage, caching services) from liability.The Complaints Mechanism: A new defence allows intermediaries to avoid liability if they establish an accessible complaints mechanism and, upon receiving a valid complaint, take reasonable steps to remove the defamatory content within 7 days.26Absolute Privilege for Police Reports: A critical reform extends the defence of absolute privilege to reports of alleged criminal conduct made to police.24 Previously, such reports only attracted qualified privilege (which can be defeated by malice). This change provides complete immunity, encouraging victims to report crimes without fear of defamation suits.3.4 Property Law: The Torrens System and IndefeasibilityAustralian land law is defined by the Torrens System of title by registration.The Principle of IndefeasibilityThe central tenet is that the Register is everything. Once a person is registered as the proprietor, their title is "indefeasible"—it cannot be challenged on the ground of a defect in the title of the previous owner.Immediate Indefeasibility: Confirmed in Frazer v Walker  and Breskvar v Wall (1971), this principle holds that a registered proprietor obtains good title immediately upon registration, even if the instrument of transfer was void (e.g., a forgery), provided they acted without fraud.27Exceptions:Fraud: Actual dishonesty by the registered proprietor.In Personam Rights: Indefeasibility does not prevent a claim based on a personal obligation (e.g., a contract for sale entered into by the proprietor).29Short-term Leases: Leases under 3 years are generally exceptions to indefeasibility.Part IV: Equity and Fiduciary ObligationsAustralian equity jurisprudence is characterized by a strict adherence to precedent and a reluctance to expand fiduciary duties into new areas.4.1 Fiduciary Duties: Proscriptive, Not PrescriptiveIn Breen v Williams (1996), the High Court rejected the Canadian approach of expanding fiduciary duties. The case involved a patient seeking access to her medical records. The Court held that while a doctor owes a fiduciary duty to a patient, that duty is limited to matters of conflict of interest and unauthorized profit.30The Ruling: Australian fiduciary duties are proscriptive (negative duties: "thou shalt not profit," "thou shalt not conflict") rather than prescriptive (positive duties: "thou shalt act in the best interests"). Therefore, there was no fiduciary duty to provide access to records.4.2 Unconscionable ConductThe doctrine of unconscionable conduct is a powerful equitable tool. In Commercial Bank of Australia Ltd v Amadio (1983), the High Court set aside a mortgage guarantee because the bank took advantage of the Amadios' "special disability" (age, limited English, lack of business knowledge).32 This principle has now been codified in statutory form in the Australian Consumer Law (Section 20 and 21), which prohibits unconscionable conduct in trade or commerce.Part V: Corporate and Commercial Regulation5.1 Corporate Governance: Directors' DutiesThe Corporations Act 2001 (Cth) is the primary statute governing companies. Section 180 is the cornerstone of director accountability.Section 180: Care and DiligenceSection 180(1) requires directors to exercise their powers with the degree of "care and diligence" that a reasonable person would exercise in their position.33 This is a civil penalty provision.The Business Judgment Rule (Section 180(2)): Recognizing that business involves risk, the Act provides a "safe harbour" defence. Directors are not liable for a business judgment if they:Make it in good faith for a proper purpose.Have no material personal interest.Inform themselves to the extent they reasonably believe is appropriate.Rationally believe the judgment is in the best interests of the corporation.335.2 Insolvency: The Safe Harbour Defence (Section 588GA)Historically, Australia had one of the strictest insolvent trading regimes in the world (Section 588G). To encourage restructuring and innovation, the "Safe Harbour" defence (Section 588GA) was introduced.35Mechanism: Directors are protected from personal liability for insolvent trading if they start developing one or more courses of action that are "reasonably likely to lead to a better outcome for the company" than the immediate appointment of an administrator or liquidator.36 This defence requires active engagement—directors must be obtaining advice, maintaining financial records, and actively managing the distress.5.3 Consumer Law: The Statutory NormThe Australian Consumer Law (ACL) is Schedule 2 of the Competition and Consumer Act 2010 (Cth).Section 18: Misleading or Deceptive Conduct"A person must not, in trade or commerce, engage in conduct that is misleading or deceptive or is likely to mislead or deceive".38This section is a "super-statute." It applies to everything from advertising to commercial contract negotiations.No Intent Required: It is a strict liability provision. If the conduct leads the audience into error, the prohibition is breached, regardless of the intention of the representor.39Causation: The plaintiff must simply prove they were misled and suffered loss as a result.5.4 Taxation: Part IVA Anti-AvoidanceThe Income Tax Assessment Act 1936 (Cth) contains Part IVA, the General Anti-Avoidance Rule (GAAR).The Test: Part IVA applies if there is a "scheme," a "tax benefit" obtained in connection with the scheme, and it would be concluded (having regard to 8 specific factors) that the dominant purpose of the scheme was to obtain the tax benefit.40Consequence: The Commissioner of Taxation can cancel the tax benefit, using either the "annihilation" approach (stripping away the scheme steps) or the "reconstruction" approach (taxing the transaction as if it had been done in a standard way).40Part VI: Criminal Law (New South Wales Focus)Australia’s criminal law is divided into "Code" jurisdictions (Qld, WA, Tas, NT, ACT, Cth) where the law is codified, and "Common Law" jurisdictions (NSW, Vic, SA) where statutes supplement the common law.6.1 The Crimes Act 1900 (NSW)In NSW, the Crimes Act 1900 is the primary instrument, but it relies on common law definitions for many elements (e.g., mens rea, assault).6.2 Key DefencesSelf-Defence (Section 418): NSW has codified self-defence. A person is not criminally responsible if:They believe the conduct is necessary (Subjective test).The conduct is a reasonable response in the circumstances as they perceive them (Objective/Subjective hybrid).42Necessity: A common law defence preserved in NSW. It applies where the accused acts to avoid an imminent peril of irreparable evil, and the act is proportionate to the peril.44Mental Health Impairment: The Mental Health and Cognitive Impairment Forensic Provisions Act 2020 (NSW) allows for a "special verdict" where the accused did not know the nature/quality of the act or that it was wrong due to mental impairment.43Part VII: Employment and Industrial Relations ReformThe Fair Work Legislation Amendment (Closing Loopholes) Act 2023 and No. 2 Act 2024 represent the most significant re-regulation of the Australian labour market in over a decade.457.1 "Same Job, Same Pay"Targeting the "labour hire loophole," these reforms allow the Fair Work Commission to order that labour hire employees be paid the same rate as direct employees of the host employer, provided they are performing the same work. This prevents employers from using labour hire to undercut enterprise agreements.467.2 The New Definition of Casual EmploymentThe definition of "casual employee" has been codified to reflect the "real substance, practical reality and true nature of the employment relationship".48The Change: Previously, the High Court in WorkPac v Rossato held that the written contract was paramount. The new legislation overrides this, stating that if there is a mutual expectation of continuing work, the employee may be permanent regardless of the contract label.Conversion: A new employee-choice pathway allows casuals to request conversion to permanent employment after 6 months (12 for small business).497.3 The Right to Disconnect (2024)Commencing 26 August 2024 (2025 for small business), employees have a statutory right to refuse to monitor, read, or respond to work communications outside of working hours.45Reasonableness: The refusal must not be "unreasonable." Factors determining reasonableness include the reason for contact, the method, the level of disruption, the employee’s role, and whether they are compensated for availability.50 This brings Australia in line with jurisdictions like France, acknowledging the blurring of work-life boundaries in the digital age.Part VIII: Family Law – The Safety ParadigmThe Family Law Amendment Act 2024 fundamentally altered the parenting provisions of the Family Law Act 1975, marking a shift from "parental rights" to "child safety."8.1 Removal of "Equal Shared Parental Responsibility"The most significant change was the repeal of the presumption of "equal shared parental responsibility".51Context: This presumption was often misunderstood by parents as creating a right to "equal time" (50/50 custody). Research indicated this led to dangerous shared-care arrangements in cases of family violence.New Framework: There is no longer a presumption. Allocation of responsibility is based solely on the best interests of the child.8.2 The Best Interests of the ChildThe previously complex list of "primary" and "additional" considerations for determining the best interests of the child has been streamlined into six core factors 52:Safety of the child and carers (Paramount).Views of the child.Developmental, psychological, and emotional needs.Capacity of carers to provide for needs.Benefit of a relationship with parents.Anything else relevant.Part IX: Emerging Frontiers – Privacy, AI, and Climate9.1 The Statutory Tort of Privacy (2025)Commencing on 10 June 2025, the Privacy Act 1988 (Cth) Schedule 2 introduces a statutory cause of action for serious invasions of privacy.54Elements:Intrusion upon seclusion OR misuse of private information.A reasonable expectation of privacy.Intentional or reckless conduct.The invasion was "serious."Public Interest Test: The court must be satisfied that the public interest in protecting privacy outweighs any countervailing public interest (e.g., freedom of the press, open justice).54 This balances the new right against implied freedoms.9.2 Artificial Intelligence and AuthorshipAustralia maintains a human-centric view of intellectual property.The Thaler Litigation: In Thaler v Commissioner of Patents (2021) and subsequent copyright applications, Australian courts and the IP office have ruled that an AI system (like DABUS) cannot be an "inventor" or "author".56 Under the Copyright Act 1968 (Cth), a "work" must originate from a human author. Consequently, AI-generated works currently reside in the public domain in Australia, lacking copyright protection.589.3 Climate Litigation: The Duty of Care?Australian climate litigation has pushed the boundaries of tort law.** Sharma v Minister for the Environment (2021/2022):** Initially, a single judge of the Federal Court found the Environment Minister owed a duty of care to Australian children to avoid causing personal injury from climate change when approving coal projects.59The Appeal: The Full Federal Court overturned this decision in 2022. The Court held that imposing such a duty would involve the judiciary in "core policy" decisions (incoherent with the statutory scheme) and that the causal link between a single mine’s emissions and global climate change was not sufficient to ground liability in negligence.60 This signals that climate action in Australia must largely come from legislative, not judicial, intervention.ConclusionThe Australian legal landscape in 2024–2025 is defined by a tension between the stability of established constitutional doctrines and the urgent need for statutory adaptation to modern realities.The constitutional framework, anchored by the Kable and Kirk doctrines, ensures a rigorous, unified system of judicial supervision that protects the rule of law from legislative overreach. Simultaneously, the statutory domains are undergoing rapid evolution. The shift from the AAT to the ART, the introduction of the statutory privacy tort, and the "Closing Loopholes" industrial reforms all point towards a legal system that is becoming more interventionist, more rights-focused, and more attuned to the power imbalances of the digital and corporate worlds.For the legal practitioner, the "ripple effects" are clear: administrative decision-making is subject to renewed scrutiny under the ART; corporate directors face a nuanced environment of "safe harbours" mixed with strict duties; and the boundaries of private law are expanding to encompass digital privacy and psychological safety. The "washminster" system remains, but it is adapting to the 21st century with a distinctly Australian blend of pragmatic statute and principled common law.
+
+# structure_dictionary.py
+
+# Map citations/filenames to Hierarchy Weight (10 = Apex, 1 = Lower)
+HIERARCHY_MAP = {
+    # FEDERAL
+    'HCA': {'jurisdiction': 'CTH', 'court': 'High Court', 'weight': 10, 'type': 'Case'},
+    'FCAFC': {'jurisdiction': 'CTH', 'court': 'Federal Court (Full)', 'weight': 9, 'type': 'Case'},
+    'FCA': {'jurisdiction': 'CTH', 'court': 'Federal Court', 'weight': 7, 'type': 'Case'},
+    'FamCAFC': {'jurisdiction': 'CTH', 'court': 'Family Court (Appeal)', 'weight': 8, 'type': 'Case'},
+    'AATA': {'jurisdiction': 'CTH', 'court': 'Admin Appeals Tribunal', 'weight': 4, 'type': 'Tribunal'},
+    'ART': {'jurisdiction': 'CTH', 'court': 'Admin Review Tribunal', 'weight': 4, 'type': 'Tribunal'},
+
+    # NSW
+    'NSWCA': {'jurisdiction': 'NSW', 'court': 'Court of Appeal', 'weight': 8, 'type': 'Case'},
+    'NSWCCA': {'jurisdiction': 'NSW', 'court': 'Court of Criminal Appeal', 'weight': 8, 'type': 'Case'},
+    'NSWSC': {'jurisdiction': 'NSW', 'court': 'Supreme Court', 'weight': 6, 'type': 'Case'},
+    'NSWDC': {'jurisdiction': 'NSW', 'court': 'District Court', 'weight': 4, 'type': 'Case'},
+    'NSWLC': {'jurisdiction': 'NSW', 'court': 'Local Court', 'weight': 2, 'type': 'Case'},
+    'NSWCAT': {'jurisdiction': 'NSW', 'court': 'NCAT', 'weight': 3, 'type': 'Tribunal'},
+
+    # VIC
+    'VSCA': {'jurisdiction': 'VIC', 'court': 'Court of Appeal', 'weight': 8, 'type': 'Case'},
+    'VSC': {'jurisdiction': 'VIC', 'court': 'Supreme Court', 'weight': 6, 'type': 'Case'},
+    'VCAT': {'jurisdiction': 'VIC', 'court': 'VCAT', 'weight': 3, 'type': 'Tribunal'},
+
+    # QLD
+    'QCA': {'jurisdiction': 'QLD', 'court': 'Court of Appeal', 'weight': 8, 'type': 'Case'},
+    'QSC': {'jurisdiction': 'QLD', 'court': 'Supreme Court', 'weight': 6, 'type': 'Case'},
+    'QCAT': {'jurisdiction': 'QLD', 'court': 'QCAT', 'weight': 3, 'type': 'Tribunal'},
+}
+
+# Map keywords to Legislative Status
+LEGISLATION_STATUS_MAP = {
+    'Bill': {'type': 'Bill', 'status': 'Proposed', 'weight': 0},
+    'Explanatory Memorandum': {'type': 'EM', 'status': 'Interpretive', 'weight': 1},
+    'Second Reading': {'type': 'Speech', 'status': 'Interpretive', 'weight': 1},
+    'Repealed': {'type': 'Act', 'status': 'Obsolete', 'weight': 0},
+    'As made': {'type': 'Act', 'status': 'Historical', 'weight': 5},
+    'In force': {'type': 'Act', 'status': 'Current', 'weight': 10},
+    'Regulation': {'type': 'Regulation', 'status': 'Current', 'weight': 8},
+    'Rules': {'type': 'Rules', 'status': 'Current', 'weight': 7},
+}
+
+
+# classification_dictionary.py
+
+CLASSIFICATION_MAP = {
+    # --- TIER 1: HIGH SPECIFICITY (Check these first) ---
+    'Tax_Federal': [
+        'income tax assessment act', 'commissioner of taxation', 'tax benefit', 'part iva', 
+        'fringe benefits tax', 'capital gains tax', 'gst act', 'input tax credit', 
+        'transfer pricing', 'tax ruling', 'assessable income', 'deductible gift recipient'
+    ],
+    'Tax_State': [
+        'payroll tax', 'land tax management act', 'duties act', 'stamp duty', 
+        'transfer duty', 'parking space levy', 'chief commissioner of state revenue'
+    ],
+    'IP_Copyright': [
+        'copyright act', 'infringement of copyright', 'fair dealing', 'moral rights', 
+        'cinematograph film', 'literary work', 'broadcast right'
+    ],
+    'IP_Patent_Trademark': [
+        'patents act', 'trade marks act', 'inventive step', 'priority date', 
+        'deceptively similar', 'passing off', 'patent opposition', 'rectification of register'
+    ],
+    'Ind_Safety': [
+        'work health and safety act', 'safework', 'industrial manslaughter', 
+        'risk of death or serious injury', 'category 1 offence', 'whs act'
+    ],
+    'Reg_Energy_Resources': [
+        'mining act', 'petroleum (onshore) act', 'mining lease', 'exploration licence', 
+        'water management act', 'water access licence', 'native title determination', 
+        'ilua', 'energy market', 'electricity supply act'
+    ],
+    'Reg_Telecoms': [
+        'telecommunications act', 'carrier powers', 'interception warrant', 'metadata', 
+        'telecommunications industry ombudsman', 'acma', 'low-impact facility'
+    ],
+
+    # --- TIER 2: ADMINISTRATIVE & TRIBUNAL (The "Unclassified" Fixers) ---
+    'Admin_Migration': [
+        'migration act', 'protection visa', 'visa cancellation', 'section 501', 
+        'refugee review tribunal', 'immigration assessment authority', 'minister for immigration'
+    ],
+    'Admin_Social_Security': [
+        'social security act', 'disability support pension', 'centrelink', 
+        'administrative appeals tribunal', 'aat', 'ndis act', 'national disability insurance'
+    ],
+    'Admin_Information': [
+        'freedom of information', 'gipa act', 'government information (public access)', 
+        'privacy act', 'app', 'access to documents', 'exempt document'
+    ],
+    'Admin_Disciplinary': [
+        'professional misconduct', 'unsatisfactory professional conduct', 'health practitioner regulation', 
+        'removed from the roll', 'civil and administrative tribunal', 'ncat', 'vcat', 'qcat', 'occupational division'
+    ],
+    'Reg_Health_Guardianship': [
+        'guardianship act', 'mental health act', 'financial management order', 
+        'capacity to make decisions', 'treatment order', 'involuntary patient', 'public guardian'
+    ],
+    'Prop_Strata_Tenancy': [
+        'residential tenancies act', 'strata schemes', 'owners corporation', 'termination notice', 
+        'retail leases act', 'bond refund', 'tenancy tribunal', 'community title'
+    ],
+
+    # --- TIER 3: CIVIL LIABILITY & TORTS ---
+    'Tort_Negligence': [
+        'civil liability act', 'duty of care', 'breach of duty', 'causation', 
+        'contributory negligence', 'risk of harm', 'obvious risk', 'negligence', 'personal injury'
+    ],
+    'Tort_Defamation': [
+        'defamation act', 'imputation', 'concerns notice', 'serious harm', 
+        'qualified privilege', 'defence of truth', 'honest opinion'
+    ],
+    'Comp_Workers_Motor': [
+        'workers compensation act', 'motor accidents compensation', 'whole person impairment', 
+        'work capacity decision', 'statutory benefits', 'lifetime care and support'
+    ],
+
+    # --- TIER 4: BROAD CATEGORIES (Check these last) ---
+    'Criminal_Drugs': [
+        'misuse of drugs', 'deemed supply', 'commercial quantity', 'prohibited drug', 
+        'cultivation', 'drug misuse and trafficking'
+    ],
+    'Criminal_Sexual': [
+        'sexual intercourse without consent', 'indecent assault', 'child abuse material', 
+        'sexual act', 'grooming', 'historical offence'
+    ],
+    'Criminal_Violence': [
+        'murder', 'manslaughter', 'grievous bodily harm', 'wounding', 'assault occasioning', 
+        'apprehended violence order', 'domestic violence'
+    ],
+    'Criminal_General': [
+        'crimes act', 'criminal procedure', 'sentencing act', 'jury act', 
+        'bail act', 'beyond reasonable doubt', 'conviction', 'parole'
+    ],
+    'Family_Law': [
+        'family law act', 'parenting order', 'best interests of the child', 
+        'property settlement', 'spousal maintenance', 'family violence', 'fcfcoa'
+    ],
+    'Corp_Insolvency': [
+        'corporations act', 'winding up', 'statutory demand', 'liquidator', 
+        'administrator', 'insolvent', 'voluntary administration', 'deed of company arrangement'
+    ],
+    'Comm_General': [
+        'breach of contract', 'misleading or deceptive', 'australian consumer law', 
+        'specific performance', 'estoppel', 'unconscionable conduct', 'fiduciary duty'
+    ],
+    'Prop_Real': [
+        'real property act', 'conveyancing act', 'caveat', 'indefeasibility', 
+        'mortgagee in possession', 'easement', 'torrens title'
+    ],
+    'Proc_Civil': [
+        'uniform civil procedure', 'ucpr', 'statement of claim', 'security for costs', 
+        'summary judgment', 'strike out', 'indemnity costs', 'evidence act', 'admissibility'
+    ]
+}
+
+This is the Master Ontology. I have drilled down into every crevice of the Australian legal system to ensure that your 15,000 "Unclassified" documents find a home.
+
+This list moves beyond broad labels (like "Commercial") and creates granular sub-domains based on the specific vocabulary used in judgments and legislation.
+
+1. PUBLIC LAW (The State vs. The Individual)
+1.1 CRIMINAL LAW (Sub-categorized by Offence)
+
+Criminal_Violence: Homicide (Murder, Manslaughter), Assault (GBH, ABH, Common Assault), Wounding, Domestic Violence (ADVO/AVO breaches), Kidnapping.
+
+Criminal_Sexual: Sexual Assault, Indecent Assault, Child Abuse Material (CAM), Grooming, Historical Sexual Offences.
+
+Criminal_Drugs: Possession, Supply (Deemed Supply), Manufacture, Cultivation (Hydroponic), Importation (Border Controlled Drugs).
+
+Criminal_Property: Larceny (Theft), Robbery (Armed), Break & Enter, Fraud (Dishonesty), Arson, Malicious Damage.
+
+Criminal_Traffic: PCA (Drink Driving), Drug Driving, Negligent Driving Causing Death, Dangerous Driving, License Disqualification Appeals.
+
+Criminal_Procedure: Bail Applications, Sentencing Principles, Parole Board Reviews, Crime Commission (Examinations), Proceeds of Crime (Confiscation).
+
+1.2 ADMINISTRATIVE LAW (Government Accountability)
+
+Admin_Migration: Visa Cancellation (s 501), Protection Visas (Refugees), Skilled Migration, Detention, Deportation.
+
+Admin_Social_Security: Centrelink, Disability Support Pension (DSP), Robodebt, JobSeeker, NDIS Plans.
+
+Admin_Veterans: Veterans' Entitlements (VEA), Military Rehabilitation (MRCA), War-Widow Pensions.
+
+Admin_Information: Freedom of Information (FOI), GIPA (Govt Information Public Access), Privacy Act Breaches, Surveillance Devices.
+
+Admin_Disciplinary: Professional Misconduct (Lawyers, Doctors, Nurses, Vets), NCAT/VCAT Occupational Divisions.
+
+1.3 CONSTITUTIONAL LAW
+
+Constitutional_Federal: s 51 Heads of Power, s 109 Inconsistency, s 92 Free Trade, Separation of Powers (Boilermakers).
+
+Constitutional_State: Legislative Power, Kable Doctrine (State Courts), Election disputes.
+
+1.4 TAXATION & REVENUE
+
+Tax_Federal: Income Tax, Capital Gains Tax (CGT), Fringe Benefits Tax (FBT), Goods & Services Tax (GST), Tax Avoidance (Part IVA), Transfer Pricing.
+
+Tax_State: Land Tax, Payroll Tax, Stamp Duty (Transfer Duty), Parking Space Levy.
+
+2. PRIVATE LAW (Civil Wrongs & Rights)
+2.1 TORTS (Civil Liability)
+
+Tort_Negligence: Duty of Care, Breach, Causation, Contributory Negligence, Nervous Shock, Occupier's Liability (Slip & Fall).
+
+Tort_Defamation: Libel, Slander, Concerns Notices, Defences (Truth, Honest Opinion, Qualified Privilege), Serious Harm.
+
+Tort_Medical: Medical Negligence, Failure to Warn, wrongful birth/life.
+
+Tort_Institutional: Abuse claims (Vicarious Liability for historic abuse).
+
+Tort_Intentional: Trespass to Person (Assault/Battery), Trespass to Land, False Imprisonment, Malicious Prosecution.
+
+Tort_Nuisance: Private Nuisance (Noise, Smell, Tree roots), Public Nuisance.
+
+2.2 STATUTORY COMPENSATION SCHEMES
+
+Comp_Workers: Workers Compensation, Work Capacity Decisions, Whole Person Impairment (WPI).
+
+Comp_Motor_Accidents: CTP Claims, Lifetime Care and Support (LCS), Blameless Accidents.
+
+Comp_Victims: Victims Support Scheme, Recognition Payments.
+
+2.3 EQUITY & TRUSTS
+
+Equity_General: Estoppel (Promissory/Proprietary), Fiduciary Duties, Unconscionable Conduct, Undue Influence, Subrogation.
+
+Equity_Trusts: Express Trusts, Discretionary Trusts (Family Trusts), Constructive Trusts, Resulting Trusts, Trustee Duties (Breach).
+
+2.4 SUCCESSION (Death & Estates)
+
+Succession_Probate: Validity of Wills, Testamentary Capacity, Informal Wills.
+
+Succession_Family_Provision: Contested Estates (s 60 Claims), "Adequate Provision" for children/spouses.
+
+3. COMMERCIAL & CORPORATE
+3.1 CORPORATIONS LAW
+
+Corp_Governance: Directors' Duties (Care & Diligence), Oppression Suits (Minority Shareholders), Derivative Actions.
+
+Corp_Insolvency: Winding Up, Statutory Demands, Voluntary Administration, Liquidator Powers, Voidable Transactions (Unfair Preferences), Insolvent Trading.
+
+3.2 COMMERCIAL TRANSACTIONS
+
+Comm_Contract: Breach of Contract, Interpretation of Terms, Specific Performance, Termination, Repudiation.
+
+Comm_Banking: Loan Agreements, Guarantees, Mortgages (Possession), Personal Bankruptcy.
+
+Comm_Consumer: ACL (Australian Consumer Law), Misleading & Deceptive Conduct (s 18), Unfair Contract Terms, Consumer Guarantees (Defective Goods).
+
+Comm_Insurance: Policy Interpretation, Non-Disclosure, Indemnity Disputes (Business Interruption).
+
+3.3 INTELLECTUAL PROPERTY
+
+IP_Copyright: Infringement, Fair Dealing, Moral Rights.
+
+IP_Trademark: Registration Opposition, Passing Off, Deceptively Similar.
+
+IP_Patents: Validity, Inventive Step, Novelty, Patent Infringement.
+
+4. PROPERTY & LAND
+4.1 REAL PROPERTY
+
+Prop_Torrens: Indefeasibility of Title, Caveats, Priority Disputes, Fraud Exceptions.
+
+Prop_Leasing: Commercial Leases, Retail Leases, Relief against Forfeiture.
+
+Prop_Strata: Owners Corporations, By-Laws (Pets/Renovations), Levy Disputes.
+
+Prop_Neighbours: Easements, Covenants, Encroachments, Dividing Fences, Trees.
+
+4.2 PLANNING & ENVIRONMENT
+
+Env_Development: DA Appeals (Merits Review), Modification Applications, Zoning.
+
+Env_Protection: Pollution Offences, Waste Dumping, Contaminated Land, Biodiversity Conservation.
+
+Env_Compulsory_Acq: Just Terms Compensation, Land Valuation (Valuer-General).
+
+Native_Title: Indigenous Land Use Agreements (ILUA), Determination of Native Title.
+
+5. FAMILY & DOMESTIC
+5.1 FAMILY LAW
+
+Family_Parenting: Custody, Best Interests of the Child, Relocation, Recovery Orders.
+
+Family_Property: Asset Division, Spousal Maintenance, Superannuation Splitting.
+
+Family_Child_Protection: Care Orders (DoCS/DCJ), Removal of Children (State Jurisdiction).
+
+Family_Violence: Intervention Orders (FVIO), Safety Prohibitions.
+
+6. PROCEDURAL LAW (The Machinery of Justice)
+6.1 CIVIL PROCEDURE
+
+Proc_Pleadings: Strike Out Applications, Summary Dismissal, Amendments, Joinder of Parties.
+
+Proc_Discovery: Subpoenas, Discovery, Interrogatories, Notices to Produce.
+
+Proc_Costs: Indemnity Costs, Security for Costs, Gross Sum Costs, Taxation of Costs.
+
+Proc_Enforcement: Garnishee Orders, Writs of Levy of Property.
+
+6.2 EVIDENCE
+
+Evidence_Admissibility: Hearsay, Tendency & Coincidence, Opinion Evidence (Expert Reports).
+
+Evidence_Privilege: Legal Professional Privilege (LPP), Public Interest Immunity (PII), Without Prejudice Privilege.
+
+7. INDUSTRIAL & EMPLOYMENT
+Ind_Employment: Unfair Dismissal, General Protections (Adverse Action), Breach of Employment Contract, Restraint of Trade.
+
+Ind_Industrial: Enterprise Agreements, Modern Awards, Industrial Action (Strikes), Union Right of Entry.
+
+Ind_Safety: Work Health & Safety (WHS) Prosecutions, Industrial Manslaughter.
+
+8. SPECIALIZED DOMAINS
+Spec_Maritime: Admiralty, Carriage of Goods by Sea.
+
+Spec_Aviation: Carrier Liability (Montreal Convention).
+
+Spec_Mental_Health: Involuntary Treatment Orders, Mental Health Tribunal reviews.
+
+Spec_Coronial: Inquests, Findings of Manner and Cause of Death.
+
+Is this list exhaustive enough? If you are happy with this granular breakdown, I can now proceed to write the classification_dictionary.py that maps specific keywords to these exact categories.

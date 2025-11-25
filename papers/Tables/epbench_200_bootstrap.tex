@@ -1,0 +1,45 @@
+\begin{table*}[t]
+\centering
+\scriptsize % More compact font
+\setlength{\tabcolsep}{4pt} % Reduce column
+\begin{tabular}{@{}llcccccc@{}}
+\toprule
+\multirow{2}{*}{Metric} & \multirow{2}{*}{Method} & 0 Cues & 1 Cue & 2 Cues & 3-5 Cues & 6+ Cues & Overall \\
+& & (N=180) & (N=180) & (N=108) & (N=128) & (N=90) & (N=686) \\
+\midrule
+% --- Precision Block ---
+\multirow{7}{*}{\textbf{P}}
+& Vanilla LLM  & $0.840\pm0.019$ & $0.734\pm0.021$ & $0.735\pm0.026$ & $0.703\pm0.021$ & $0.806\pm0.028$ & $0.766\pm0.010$ \\
+& Embedding RAG & $0.906\pm0.021$ & $\underline{0.745}\pm0.026$ & $0.803\pm0.028$ & $0.823\pm0.025$ & $0.886\pm0.029$ & $\underline{0.832}\pm0.012$ \\
+& GraphRAG \cite{Edge2025GraphRAG} & $\underline{0.950}\pm0.016$ & $0.657\pm0.029$ & $0.677\pm0.034$ & $0.753\pm0.028$ & $0.816\pm0.035$ & $0.781\pm0.013$ \\
+& HippoRAG2 \cite{JimenezGutierrez2025HippoRAG} & $0.829\pm0.027$ & $0.704\pm0.029$ & $\mathbf{0.817}\pm0.026$ & $\underline{0.839}\pm0.026$ & $\mathbf{0.940}\pm0.020$ & $0.812\pm0.013$ \\
+& LightRAG \cite{Guo2024LightRAG} & $0.946\pm0.017$ & $0.668\pm0.029$ & $0.615\pm0.036$ & $0.695\pm0.031$ & $0.822\pm0.037$ & $0.763\pm0.014$ \\
+\cmidrule(lr){2-8}
+& GSW (Ours) & $\mathbf{0.978}\pm0.011$ & $\mathbf{0.755}\pm0.026$ & $\underline{0.810}\pm0.027$ & $\mathbf{0.878}\pm0.019$ & $\underline{0.890}\pm0.024$ & $\mathbf{0.865}\pm0.010$ \\
+\midrule
+% --- Recall Block ---
+\multirow{7}{*}{\textbf{R}}
+& Vanilla LLM & $0.840\pm0.019$ & $0.781\pm0.021$ & $0.526\pm0.021$ & $0.419\pm0.017$ & $0.229\pm0.014$ & $0.616\pm0.011$ \\
+& Embedding RAG & $0.906\pm0.021$ & $\underline{0.863}\pm0.025$ & $0.773\pm0.033$ & $0.746\pm0.027$ & $0.624\pm0.036$ & $\underline{0.807}\pm0.012$ \\
+& GraphRAG \cite{Edge2025GraphRAG} & $\underline{0.950}\pm0.016$ & $0.764\pm0.031$ & $0.686\pm0.035$ & $0.645\pm0.026$ & $0.537\pm0.030$ & $0.748\pm0.014$ \\
+& HippoRAG2 \cite{JimenezGutierrez2025HippoRAG} & $0.829\pm0.027$ & $0.823\pm0.026$ & $\underline{0.800}\pm0.029$ & $\underline{0.749}\pm0.026$ & $\underline{0.675}\pm0.030$ & $0.787\pm0.013$ \\
+& LightRAG \cite{Guo2024LightRAG} & $0.946\pm0.017$ & $0.716\pm0.033$ & $0.628\pm0.035$ & $0.559\pm0.029$ & $0.458\pm0.029$ & $0.699\pm0.015$ \\
+\cmidrule(lr){2-8}
+& GSW (Ours) & $\mathbf{0.978}\pm0.011$ & $\mathbf{0.863}\pm0.025$ & $\mathbf{0.869}\pm0.023$ & $\mathbf{0.893}\pm0.015$ & $\mathbf{0.822}\pm0.022$ & $\mathbf{0.894}\pm0.009$ \\
+\midrule
+% --- F1 Block ---
+\multirow{6}{*}{\textbf{F1}}
+& Vanilla LLM & $0.840\pm0.019$ & $0.709\pm0.022$ & $0.585\pm0.021$ & $0.476\pm0.017$ & $0.325\pm0.017$ & $0.629\pm0.010$ \\
+& Embedding RAG & $0.906\pm0.021$ & $\underline{0.726}\pm0.026$ & $0.723\pm0.030$ & $0.745\pm0.026$ & $0.680\pm0.035$ & $\underline{0.771}\pm0.013$ \\
+& GraphRAG \cite{Edge2025GraphRAG} & $\underline{0.950}\pm0.016$ & $0.625\pm0.029$ & $0.625\pm0.034$ & $0.657\pm0.026$ & $0.607\pm0.032$ & $0.714\pm0.013$ \\
+& HippoRAG2 \cite{JimenezGutierrez2025HippoRAG} & $0.829\pm0.028$ & $0.676\pm0.028$ & $\underline{0.762}\pm0.028$ & $\underline{0.754}\pm0.025$ & $\underline{0.746}\pm0.027$ & $0.753\pm0.013$ \\
+& LightRAG \cite{Guo2024LightRAG} & $0.946\pm0.017$ & $0.594\pm0.030$ & $0.587\pm0.032$ & $0.579\pm0.028$ & $0.561\pm0.030$ & $0.678\pm0.014$ \\
+\cmidrule(lr){2-8}
+& GSW (Ours) & $\mathbf{0.978}\pm0.011$ & $\mathbf{0.744}\pm0.026$ & $\mathbf{0.807}\pm0.024$ & $\mathbf{0.868}\pm0.016$ & $\mathbf{0.834}\pm0.022$ & $\mathbf{0.850}\pm0.010$ \\
+
+\bottomrule
+\end{tabular}
+\caption{\textbf{GSW performance on Epbench-200 (200-Chapters Book)} Performance is grouped by metric (Precision, Recall, F1-Score) across different numbers of matching cues per query. (N=X) indicates questions per category. Error bars are estimated via bootstrap resampling. Best score in each column for each metric group is \textbf{bold}; second best is \underline{underlined}.}
+
+\label{Table:epbench_200_bootstrap}
+\end{table*}

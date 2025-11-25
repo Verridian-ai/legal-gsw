@@ -1,0 +1,1203 @@
+{
+  "metadata": {
+    "created_at": "2025-11-25T12:00:34.006187",
+    "last_updated": "2025-11-25T12:04:03.585917",
+    "chunk_count": 10,
+    "document_count": 0,
+    "domain": "family"
+  },
+  "actors": {
+    "actor_001": {
+      "id": "actor_001",
+      "name": "Family Violence Reforms Act 2017",
+      "actor_type": "person",
+      "aliases": [],
+      "roles": [
+        "Primary Legislation"
+      ],
+      "states": [
+        {
+          "id": "state_942f7770",
+          "entity_id": "actor_001",
+          "name": "Status",
+          "value": "Repealed",
+          "start_date": null,
+          "end_date": null,
+          "source_chunk_id": "chunk_0664671c"
+        }
+      ],
+      "spatio_temporal_link_ids": [],
+      "involved_cases": [],
+      "source_chunk_ids": [
+        "chunk_0664671c"
+      ]
+    },
+    "actor_002": {
+      "id": "actor_002",
+      "name": "section 6",
+      "actor_type": "person",
+      "aliases": [],
+      "roles": [
+        "Legal Reference"
+      ],
+      "states": [],
+      "spatio_temporal_link_ids": [],
+      "involved_cases": [],
+      "source_chunk_ids": [
+        "chunk_0664671c"
+      ]
+    },
+    "actor_003": {
+      "id": "actor_003",
+      "name": "Family Court (Surrogacy) Rules 2009",
+      "actor_type": "person",
+      "aliases": [
+        "These rules"
+      ],
+      "roles": [
+        "Rules"
+      ],
+      "states": [],
+      "spatio_temporal_link_ids": [],
+      "involved_cases": [],
+      "source_chunk_ids": [
+        "chunk_e9d13943"
+      ]
+    },
+    "actor_004": {
+      "id": "actor_004",
+      "name": "1",
+      "actor_type": "person",
+      "aliases": [],
+      "roles": [
+        "Rule Number"
+      ],
+      "states": [],
+      "spatio_temporal_link_ids": [],
+      "involved_cases": [],
+      "source_chunk_ids": [
+        "chunk_e9d13943"
+      ]
+    },
+    "actor_005": {
+      "id": "actor_005",
+      "name": "2",
+      "actor_type": "person",
+      "aliases": [],
+      "roles": [
+        "Rule Number"
+      ],
+      "states": [],
+      "spatio_temporal_link_ids": [],
+      "involved_cases": [],
+      "source_chunk_ids": [
+        "chunk_e9d13943"
+      ]
+    },
+    "actor_006": {
+      "id": "actor_006",
+      "name": "3",
+      "actor_type": "person",
+      "aliases": [],
+      "roles": [
+        "Rule Number"
+      ],
+      "states": [],
+      "spatio_temporal_link_ids": [],
+      "involved_cases": [],
+      "source_chunk_ids": [
+        "chunk_e9d13943"
+      ]
+    },
+    "actor_007": {
+      "id": "actor_007",
+      "name": "4",
+      "actor_type": "person",
+      "aliases": [],
+      "roles": [
+        "Rule Number"
+      ],
+      "states": [],
+      "spatio_temporal_link_ids": [],
+      "involved_cases": [],
+      "source_chunk_ids": [
+        "chunk_e9d13943"
+      ]
+    },
+    "actor_008": {
+      "id": "actor_008",
+      "name": "5",
+      "actor_type": "person",
+      "aliases": [],
+      "roles": [
+        "Rule Number"
+      ],
+      "states": [],
+      "spatio_temporal_link_ids": [],
+      "involved_cases": [],
+      "source_chunk_ids": [
+        "chunk_e9d13943"
+      ]
+    },
+    "actor_009": {
+      "id": "actor_009",
+      "name": "7",
+      "actor_type": "person",
+      "aliases": [],
+      "roles": [
+        "Rule Number"
+      ],
+      "states": [],
+      "spatio_temporal_link_ids": [],
+      "involved_cases": [],
+      "source_chunk_ids": [
+        "chunk_e9d13943"
+      ]
+    },
+    "actor_010": {
+      "id": "actor_010",
+      "name": "8",
+      "actor_type": "person",
+      "aliases": [],
+      "roles": [
+        "Rule Number"
+      ],
+      "states": [],
+      "spatio_temporal_link_ids": [],
+      "involved_cases": [],
+      "source_chunk_ids": [
+        "chunk_e9d13943"
+      ]
+    },
+    "actor_011": {
+      "id": "actor_011",
+      "name": "9",
+      "actor_type": "person",
+      "aliases": [],
+      "roles": [
+        "Rule Number"
+      ],
+      "states": [],
+      "spatio_temporal_link_ids": [],
+      "involved_cases": [],
+      "source_chunk_ids": [
+        "chunk_e9d13943"
+      ]
+    },
+    "actor_012": {
+      "id": "actor_012",
+      "name": "10",
+      "actor_type": "person",
+      "aliases": [],
+      "roles": [
+        "Rule Number"
+      ],
+      "states": [],
+      "spatio_temporal_link_ids": [],
+      "involved_cases": [],
+      "source_chunk_ids": [
+        "chunk_e9d13943"
+      ]
+    },
+    "actor_013": {
+      "id": "actor_013",
+      "name": "11",
+      "actor_type": "person",
+      "aliases": [],
+      "roles": [
+        "Rule Number"
+      ],
+      "states": [],
+      "spatio_temporal_link_ids": [],
+      "involved_cases": [],
+      "source_chunk_ids": [
+        "chunk_e9d13943"
+      ]
+    },
+    "actor_014": {
+      "id": "actor_014",
+      "name": "12",
+      "actor_type": "person",
+      "aliases": [],
+      "roles": [
+        "Rule Number"
+      ],
+      "states": [],
+      "spatio_temporal_link_ids": [],
+      "involved_cases": [],
+      "source_chunk_ids": [
+        "chunk_e9d13943"
+      ]
+    },
+    "actor_015": {
+      "id": "actor_015",
+      "name": "Parliament",
+      "actor_type": "organization",
+      "aliases": [],
+      "roles": [],
+      "states": [],
+      "spatio_temporal_link_ids": [],
+      "involved_cases": [],
+      "source_chunk_ids": [
+        "chunk_c5d6832f"
+      ]
+    },
+    "actor_016": {
+      "id": "actor_016",
+      "name": "Surrogacy Act 2008",
+      "actor_type": "person",
+      "aliases": [],
+      "roles": [
+        "Relevant Legislation"
+      ],
+      "states": [],
+      "spatio_temporal_link_ids": [],
+      "involved_cases": [],
+      "source_chunk_ids": [
+        "chunk_e9d13943"
+      ]
+    },
+    "actor_017": {
+      "id": "actor_017",
+      "name": "Chief Judge",
+      "actor_type": "person",
+      "aliases": [],
+      "roles": [
+        "Approving Authority"
+      ],
+      "states": [],
+      "spatio_temporal_link_ids": [],
+      "involved_cases": [],
+      "source_chunk_ids": [
+        "chunk_e9d13943"
+      ]
+    },
+    "actor_018": {
+      "id": "actor_018",
+      "name": "Council",
+      "actor_type": "organization",
+      "aliases": [],
+      "roles": [
+        "Regulatory Body"
+      ],
+      "states": [],
+      "spatio_temporal_link_ids": [],
+      "involved_cases": [],
+      "source_chunk_ids": [
+        "chunk_e9d13943"
+      ]
+    },
+    "actor_019": {
+      "id": "actor_019",
+      "name": "child",
+      "actor_type": "person",
+      "aliases": [
+        "the child"
+      ],
+      "roles": [
+        "Subject child"
+      ],
+      "states": [],
+      "spatio_temporal_link_ids": [],
+      "involved_cases": [],
+      "source_chunk_ids": [
+        "chunk_e9d13943"
+      ]
+    },
+    "actor_020": {
+      "id": "actor_020",
+      "name": "Family Court",
+      "actor_type": "organization",
+      "aliases": [
+        "the Court"
+      ],
+      "roles": [
+        "Court"
+      ],
+      "states": [],
+      "spatio_temporal_link_ids": [],
+      "involved_cases": [],
+      "source_chunk_ids": [
+        "chunk_e9d13943"
+      ]
+    },
+    "actor_021": {
+      "id": "actor_021",
+      "name": "Family Court Rules 2021",
+      "actor_type": "person",
+      "aliases": [],
+      "roles": [
+        "Procedural Rules"
+      ],
+      "states": [],
+      "spatio_temporal_link_ids": [],
+      "involved_cases": [],
+      "source_chunk_ids": [
+        "chunk_e9d13943"
+      ]
+    },
+    "actor_022": {
+      "id": "actor_022",
+      "name": "SL 2021/148",
+      "actor_type": "person",
+      "aliases": [],
+      "roles": [
+        "Amendment"
+      ],
+      "states": [],
+      "spatio_temporal_link_ids": [],
+      "involved_cases": [],
+      "source_chunk_ids": [
+        "chunk_e9d13943"
+      ]
+    },
+    "actor_023": {
+      "id": "actor_023",
+      "name": "parentage order",
+      "actor_type": "person",
+      "aliases": [],
+      "roles": [
+        "Legal Order"
+      ],
+      "states": [],
+      "spatio_temporal_link_ids": [],
+      "involved_cases": [],
+      "source_chunk_ids": [
+        "chunk_e9d13943"
+      ]
+    },
+    "actor_024": {
+      "id": "actor_024",
+      "name": "applicants",
+      "actor_type": "person",
+      "aliases": [],
+      "roles": [
+        "Applicants"
+      ],
+      "states": [],
+      "spatio_temporal_link_ids": [],
+      "involved_cases": [],
+      "source_chunk_ids": [
+        "chunk_e9d13943"
+      ]
+    },
+    "actor_025": {
+      "id": "actor_025",
+      "name": "marriage certificate",
+      "actor_type": "person",
+      "aliases": [],
+      "roles": [
+        "Evidence"
+      ],
+      "states": [],
+      "spatio_temporal_link_ids": [],
+      "involved_cases": [],
+      "source_chunk_ids": [
+        "chunk_e9d13943"
+      ]
+    },
+    "actor_026": {
+      "id": "actor_026",
+      "name": "ancillary application",
+      "actor_type": "person",
+      "aliases": [],
+      "roles": [
+        "Legal Application"
+      ],
+      "states": [],
+      "spatio_temporal_link_ids": [],
+      "involved_cases": [],
+      "source_chunk_ids": [
+        "chunk_e9d13943"
+      ]
+    },
+    "actor_027": {
+      "id": "actor_027",
+      "name": "approved plan",
+      "actor_type": "person",
+      "aliases": [],
+      "roles": [
+        "Legal Plan"
+      ],
+      "states": [],
+      "spatio_temporal_link_ids": [],
+      "involved_cases": [],
+      "source_chunk_ids": [
+        "chunk_e9d13943"
+      ]
+    },
+    "actor_028": {
+      "id": "actor_028",
+      "name": "person",
+      "actor_type": "person",
+      "aliases": [],
+      "roles": [
+        "Affected Party"
+      ],
+      "states": [],
+      "spatio_temporal_link_ids": [],
+      "involved_cases": [],
+      "source_chunk_ids": [
+        "chunk_e9d13943"
+      ]
+    },
+    "actor_029": {
+      "id": "actor_029",
+      "name": "Principal Registrar",
+      "actor_type": "person",
+      "aliases": [],
+      "roles": [
+        "Court Officer"
+      ],
+      "states": [],
+      "spatio_temporal_link_ids": [],
+      "involved_cases": [],
+      "source_chunk_ids": [
+        "chunk_e9d13943"
+      ]
+    },
+    "actor_030": {
+      "id": "actor_030",
+      "name": "25 Feb 2009",
+      "actor_type": "person",
+      "aliases": [],
+      "roles": [
+        "Publication Date"
+      ],
+      "states": [],
+      "spatio_temporal_link_ids": [],
+      "involved_cases": [],
+      "source_chunk_ids": [
+        "chunk_e9d13943"
+      ]
+    },
+    "actor_031": {
+      "id": "actor_031",
+      "name": "1 Mar 2009",
+      "actor_type": "person",
+      "aliases": [],
+      "roles": [
+        "Commencement Date"
+      ],
+      "states": [],
+      "spatio_temporal_link_ids": [],
+      "involved_cases": [],
+      "source_chunk_ids": [
+        "chunk_e9d13943"
+      ]
+    },
+    "actor_032": {
+      "id": "actor_032",
+      "name": "18 Aug 2021",
+      "actor_type": "person",
+      "aliases": [],
+      "roles": [
+        "Publication Date"
+      ],
+      "states": [],
+      "spatio_temporal_link_ids": [],
+      "involved_cases": [],
+      "source_chunk_ids": [
+        "chunk_e9d13943"
+      ]
+    },
+    "actor_033": {
+      "id": "actor_033",
+      "name": "23 Aug 2021",
+      "actor_type": "person",
+      "aliases": [],
+      "roles": [
+        "Commencement Date"
+      ],
+      "states": [],
+      "spatio_temporal_link_ids": [],
+      "involved_cases": [],
+      "source_chunk_ids": [
+        "chunk_e9d13943"
+      ]
+    },
+    "actor_034": {
+      "id": "actor_034",
+      "name": "arranged parents",
+      "actor_type": "person",
+      "aliases": [],
+      "roles": [
+        "Arranged Parents"
+      ],
+      "states": [],
+      "spatio_temporal_link_ids": [],
+      "involved_cases": [],
+      "source_chunk_ids": [
+        "chunk_e9d13943"
+      ]
+    },
+    "actor_035": {
+      "id": "actor_035",
+      "name": "birth parents",
+      "actor_type": "person",
+      "aliases": [],
+      "roles": [
+        "Birth Parents"
+      ],
+      "states": [],
+      "spatio_temporal_link_ids": [],
+      "involved_cases": [],
+      "source_chunk_ids": [
+        "chunk_e9d13943"
+      ]
+    },
+    "actor_036": {
+      "id": "actor_036",
+      "name": "lawyer",
+      "actor_type": "person",
+      "aliases": [],
+      "roles": [
+        "Lawyer"
+      ],
+      "states": [],
+      "spatio_temporal_link_ids": [],
+      "involved_cases": [],
+      "source_chunk_ids": [
+        "chunk_e9d13943"
+      ]
+    },
+    "actor_037": {
+      "id": "actor_037",
+      "name": "persons",
+      "actor_type": "person",
+      "aliases": [],
+      "roles": [
+        "Affected Parties"
+      ],
+      "states": [],
+      "spatio_temporal_link_ids": [],
+      "involved_cases": [],
+      "source_chunk_ids": [
+        "chunk_e9d13943"
+      ]
+    }
+  },
+  "verb_phrases": {
+    "verb_001": {
+      "id": "verb_001",
+      "verb": "repealed",
+      "agent_id": "actor_001",
+      "patient_ids": [
+        "actor_002"
+      ],
+      "temporal_id": null,
+      "spatial_id": null,
+      "is_implicit": false,
+      "source_chunk_id": "chunk_0664671c"
+    },
+    "verb_002": {
+      "id": "verb_002",
+      "verb": "apply",
+      "agent_id": "actor_021",
+      "patient_ids": [
+        "actor_020",
+        "actor_016"
+      ],
+      "temporal_id": null,
+      "spatial_id": null,
+      "is_implicit": false,
+      "source_chunk_id": "chunk_e9d13943"
+    },
+    "verb_003": {
+      "id": "verb_003",
+      "verb": "filed",
+      "agent_id": "actor_024",
+      "patient_ids": [
+        "actor_020"
+      ],
+      "temporal_id": null,
+      "spatial_id": null,
+      "is_implicit": false,
+      "source_chunk_id": "chunk_e9d13943"
+    },
+    "verb_004": {
+      "id": "verb_004",
+      "verb": "oppose",
+      "agent_id": "actor_037",
+      "patient_ids": [
+        "actor_023",
+        "actor_026"
+      ],
+      "temporal_id": null,
+      "spatial_id": null,
+      "is_implicit": false,
+      "source_chunk_id": "chunk_e9d13943"
+    },
+    "verb_005": {
+      "id": "verb_005",
+      "verb": "filed",
+      "agent_id": "actor_037",
+      "patient_ids": [
+        "actor_020"
+      ],
+      "temporal_id": null,
+      "spatial_id": null,
+      "is_implicit": false,
+      "source_chunk_id": "chunk_e9d13943"
+    },
+    "verb_006": {
+      "id": "verb_006",
+      "verb": "served",
+      "agent_id": "actor_020",
+      "patient_ids": [
+        "actor_037"
+      ],
+      "temporal_id": null,
+      "spatial_id": null,
+      "is_implicit": false,
+      "source_chunk_id": "chunk_e9d13943"
+    },
+    "verb_007": {
+      "id": "verb_007",
+      "verb": "directs",
+      "agent_id": "actor_020",
+      "patient_ids": [
+        "actor_037"
+      ],
+      "temporal_id": null,
+      "spatial_id": null,
+      "is_implicit": false,
+      "source_chunk_id": "chunk_e9d13943"
+    },
+    "verb_008": {
+      "id": "verb_008",
+      "verb": "decides",
+      "agent_id": "actor_020",
+      "patient_ids": [
+        "actor_014"
+      ],
+      "temporal_id": null,
+      "spatial_id": null,
+      "is_implicit": false,
+      "source_chunk_id": "chunk_e9d13943"
+    },
+    "verb_009": {
+      "id": "verb_009",
+      "verb": "give notice",
+      "agent_id": "actor_029",
+      "patient_ids": [
+        "actor_037"
+      ],
+      "temporal_id": null,
+      "spatial_id": null,
+      "is_implicit": false,
+      "source_chunk_id": "chunk_e9d13943"
+    },
+    "verb_010": {
+      "id": "verb_010",
+      "verb": "published",
+      "agent_id": "actor_003",
+      "patient_ids": [
+        "actor_011"
+      ],
+      "temporal_id": "actor_030",
+      "spatial_id": null,
+      "is_implicit": false,
+      "source_chunk_id": "chunk_e9d13943"
+    },
+    "verb_011": {
+      "id": "verb_011",
+      "verb": "inserted",
+      "agent_id": "actor_022",
+      "patient_ids": [
+        "actor_008"
+      ],
+      "temporal_id": "actor_032",
+      "spatial_id": null,
+      "is_implicit": false,
+      "source_chunk_id": "chunk_e9d13943"
+    },
+    "verb_012": {
+      "id": "verb_012",
+      "verb": "deserted",
+      "agent_id": "actor_003",
+      "patient_ids": [
+        "actor_002"
+      ],
+      "temporal_id": null,
+      "spatial_id": null,
+      "is_implicit": false,
+      "source_chunk_id": "chunk_2db0ea67"
+    },
+    "verb_013": {
+      "id": "verb_013",
+      "verb": "neglected",
+      "agent_id": "actor_003",
+      "patient_ids": [
+        "actor_002"
+      ],
+      "temporal_id": null,
+      "spatial_id": null,
+      "is_implicit": false,
+      "source_chunk_id": "chunk_2db0ea67"
+    },
+    "verb_014": {
+      "id": "verb_014",
+      "verb": "brought up",
+      "agent_id": "actor_016",
+      "patient_ids": [
+        "actor_002"
+      ],
+      "temporal_id": null,
+      "spatial_id": null,
+      "is_implicit": false,
+      "source_chunk_id": "chunk_2db0ea67"
+    },
+    "verb_015": {
+      "id": "verb_015",
+      "verb": "boarded out",
+      "agent_id": "actor_015",
+      "patient_ids": [
+        "actor_002"
+      ],
+      "temporal_id": null,
+      "spatial_id": null,
+      "is_implicit": false,
+      "source_chunk_id": "chunk_2db0ea67"
+    },
+    "verb_016": {
+      "id": "verb_016",
+      "verb": "given up",
+      "agent_id": "actor_016",
+      "patient_ids": [
+        "actor_002"
+      ],
+      "temporal_id": null,
+      "spatial_id": null,
+      "is_implicit": false,
+      "source_chunk_id": "chunk_2db0ea67"
+    },
+    "verb_017": {
+      "id": "verb_017",
+      "verb": "brought up",
+      "agent_id": "actor_003",
+      "patient_ids": [
+        "actor_002"
+      ],
+      "temporal_id": null,
+      "spatial_id": null,
+      "is_implicit": false,
+      "source_chunk_id": "chunk_2db0ea67"
+    },
+    "verb_018": {
+      "id": "verb_018",
+      "verb": "satisfied",
+      "agent_id": "actor_004",
+      "patient_ids": [
+        "actor_003"
+      ],
+      "temporal_id": null,
+      "spatial_id": null,
+      "is_implicit": false,
+      "source_chunk_id": "chunk_2db0ea67"
+    },
+    "verb_019": {
+      "id": "verb_019",
+      "verb": "brought up",
+      "agent_id": "actor_002",
+      "patient_ids": [
+        "Religion"
+      ],
+      "temporal_id": null,
+      "spatial_id": null,
+      "is_implicit": false,
+      "source_chunk_id": "chunk_2db0ea67"
+    },
+    "verb_020": {
+      "id": "verb_020",
+      "verb": "given up",
+      "agent_id": "actor_002",
+      "patient_ids": [
+        "actor_013"
+      ],
+      "temporal_id": null,
+      "spatial_id": null,
+      "is_implicit": false,
+      "source_chunk_id": "chunk_2db0ea67"
+    },
+    "verb_021": {
+      "id": "verb_021",
+      "verb": "varied",
+      "agent_id": "actor_004",
+      "patient_ids": [
+        "Order"
+      ],
+      "temporal_id": null,
+      "spatial_id": null,
+      "is_implicit": false,
+      "source_chunk_id": "chunk_2db0ea67"
+    },
+    "verb_022": {
+      "id": "verb_022",
+      "verb": "revoked",
+      "agent_id": "actor_004",
+      "patient_ids": [
+        "Order"
+      ],
+      "temporal_id": null,
+      "spatial_id": null,
+      "is_implicit": false,
+      "source_chunk_id": "chunk_2db0ea67"
+    },
+    "verb_023": {
+      "id": "verb_023",
+      "verb": "appeal",
+      "agent_id": "Applicant",
+      "patient_ids": [
+        "actor_004"
+      ],
+      "temporal_id": null,
+      "spatial_id": null,
+      "is_implicit": false,
+      "source_chunk_id": "chunk_2db0ea67"
+    },
+    "verb_024": {
+      "id": "verb_024",
+      "verb": "enforced",
+      "agent_id": "Order",
+      "patient_ids": [
+        "actor_012"
+      ],
+      "temporal_id": null,
+      "spatial_id": null,
+      "is_implicit": false,
+      "source_chunk_id": "chunk_2db0ea67"
+    },
+    "verb_025": {
+      "id": "verb_025",
+      "verb": "served",
+      "agent_id": "Order",
+      "patient_ids": [
+        "actor_016"
+      ],
+      "temporal_id": null,
+      "spatial_id": null,
+      "is_implicit": false,
+      "source_chunk_id": "chunk_2db0ea67"
+    },
+    "verb_026": {
+      "id": "verb_026",
+      "verb": "complying",
+      "agent_id": "actor_016",
+      "patient_ids": [
+        "Order"
+      ],
+      "temporal_id": null,
+      "spatial_id": null,
+      "is_implicit": false,
+      "source_chunk_id": "chunk_2db0ea67"
+    },
+    "verb_027": {
+      "id": "verb_027",
+      "verb": "removed",
+      "agent_id": "actor_004",
+      "patient_ids": [
+        "Application"
+      ],
+      "temporal_id": null,
+      "spatial_id": null,
+      "is_implicit": false,
+      "source_chunk_id": "chunk_2db0ea67"
+    },
+    "verb_028": {
+      "id": "verb_028",
+      "verb": "give notice",
+      "agent_id": "Person",
+      "patient_ids": [
+        "Change of address"
+      ],
+      "temporal_id": null,
+      "spatial_id": null,
+      "is_implicit": false,
+      "source_chunk_id": "chunk_2db0ea67"
+    },
+    "verb_029": {
+      "id": "verb_029",
+      "verb": "attached",
+      "agent_id": "Pension or income",
+      "patient_ids": [
+        "Person"
+      ],
+      "temporal_id": null,
+      "spatial_id": null,
+      "is_implicit": false,
+      "source_chunk_id": "chunk_2db0ea67"
+    },
+    "verb_030": {
+      "id": "verb_030",
+      "verb": "give up",
+      "agent_id": "actor_003",
+      "patient_ids": [
+        "actor_002"
+      ],
+      "temporal_id": null,
+      "spatial_id": null,
+      "is_implicit": false,
+      "source_chunk_id": "chunk_2db0ea67"
+    },
+    "verb_031": {
+      "id": "verb_031",
+      "verb": "appoint",
+      "agent_id": "actor_004",
+      "patient_ids": [
+        "actor_020"
+      ],
+      "temporal_id": null,
+      "spatial_id": null,
+      "is_implicit": false,
+      "source_chunk_id": "chunk_2db0ea67"
+    },
+    "verb_032": {
+      "id": "verb_032",
+      "verb": "settlement",
+      "agent_id": "actor_004",
+      "patient_ids": [
+        "Damages"
+      ],
+      "temporal_id": null,
+      "spatial_id": null,
+      "is_implicit": false,
+      "source_chunk_id": "chunk_2db0ea67"
+    },
+    "verb_033": {
+      "id": "verb_033",
+      "verb": "deciding",
+      "agent_id": "actor_004",
+      "patient_ids": [
+        "Custody or upbringing"
+      ],
+      "temporal_id": null,
+      "spatial_id": null,
+      "is_implicit": false,
+      "source_chunk_id": "chunk_2db0ea67"
+    },
+    "verb_034": {
+      "id": "verb_034",
+      "verb": "apply",
+      "agent_id": "actor_003",
+      "patient_ids": [
+        "actor_004"
+      ],
+      "temporal_id": null,
+      "spatial_id": null,
+      "is_implicit": false,
+      "source_chunk_id": "chunk_2db0ea67"
+    }
+  },
+  "questions": {
+    "q_001": {
+      "id": "q_001",
+      "question_text": "What is the status of the Family Violence Reforms Act 2017?",
+      "question_type": "what",
+      "target_entity_id": "actor_001",
+      "answerable": true,
+      "answer_text": "Repealed",
+      "answer_entity_id": "actor_001",
+      "source_chunk_id": "chunk_0664671c",
+      "answered_in_chunk_id": null
+    },
+    "q_002": {
+      "id": "q_002",
+      "question_text": "By what section was the Family Violence Reforms Act 2017 repealed?",
+      "question_type": "what",
+      "target_entity_id": "actor_001",
+      "answerable": true,
+      "answer_text": "section 6 of the Family Violence Reforms Act 2017",
+      "answer_entity_id": "actor_002",
+      "source_chunk_id": "chunk_0664671c",
+      "answered_in_chunk_id": null
+    },
+    "q_003": {
+      "id": "q_003",
+      "question_text": "When was the Family Violence Reforms Act 2017 repealed?",
+      "question_type": "when",
+      "target_entity_id": "actor_001",
+      "answerable": false,
+      "answer_text": null,
+      "answer_entity_id": null,
+      "source_chunk_id": "chunk_0664671c",
+      "answered_in_chunk_id": null
+    },
+    "q_004": {
+      "id": "q_004",
+      "question_text": "What replaced the Family Violence Reforms Act 2017?",
+      "question_type": "what",
+      "target_entity_id": "actor_001",
+      "answerable": false,
+      "answer_text": null,
+      "answer_entity_id": null,
+      "source_chunk_id": "chunk_0664671c",
+      "answered_in_chunk_id": null
+    },
+    "q_005": {
+      "id": "q_005",
+      "question_text": "Why was the Family Violence Reforms Act 2017 repealed?",
+      "question_type": "why",
+      "target_entity_id": "actor_001",
+      "answerable": false,
+      "answer_text": null,
+      "answer_entity_id": null,
+      "source_chunk_id": "chunk_0664671c",
+      "answered_in_chunk_id": null
+    },
+    "q_006": {
+      "id": "q_006",
+      "question_text": "How much notice is given for a hearing?",
+      "question_type": "what",
+      "target_entity_id": "actor_014",
+      "answerable": true,
+      "answer_text": "not less than 28 days' notice",
+      "answer_entity_id": "actor_014",
+      "source_chunk_id": "chunk_e9d13943",
+      "answered_in_chunk_id": null
+    },
+    "q_007": {
+      "id": "q_007",
+      "question_text": "What happens if a parent is deemed unfit to have custody of a minor?",
+      "question_type": "what",
+      "target_entity_id": "actor_004",
+      "answerable": true,
+      "answer_text": "The Court may order that the minor shall be given up to the custody of some near relative or other person willing to accept such custody, and may by such order impose terms for the maintenance of the minor chargeable upon the parent.",
+      "answer_entity_id": "actor_004",
+      "source_chunk_id": "chunk_2db0ea67",
+      "answered_in_chunk_id": null
+    },
+    "q_008": {
+      "id": "q_008",
+      "question_text": "What jurisdiction does the Local Court have?",
+      "question_type": "what",
+      "target_entity_id": "actor_012",
+      "answerable": true,
+      "answer_text": "The jurisdiction conferred on the Supreme Court by this Part may also be exercised by the District Court or by the Local Court.",
+      "answer_entity_id": "actor_012",
+      "source_chunk_id": "chunk_2db0ea67",
+      "answered_in_chunk_id": null
+    }
+  },
+  "spatio_temporal_links": {
+    "link_001": {
+      "id": "link_001",
+      "linked_entity_ids": [
+        "actor_003",
+        "actor_030"
+      ],
+      "tag_type": "temporal",
+      "tag_value": "25 Feb 2009",
+      "source_chunk_id": "chunk_e9d13943"
+    },
+    "link_002": {
+      "id": "link_002",
+      "linked_entity_ids": [
+        "actor_003",
+        "actor_031"
+      ],
+      "tag_type": "temporal",
+      "tag_value": "1 Mar 2009",
+      "source_chunk_id": "chunk_e9d13943"
+    },
+    "link_9f33b327": {
+      "id": "link_9f33b327",
+      "linked_entity_ids": [
+        "actor_002",
+        "actor_002",
+        "actor_003",
+        "actor_005",
+        "actor_004"
+      ],
+      "tag_type": "temporal",
+      "tag_value": "6 October 2015",
+      "source_chunk_id": "chunk_9f12cb94"
+    },
+    "link_132bba80": {
+      "id": "link_132bba80",
+      "linked_entity_ids": [
+        "actor_002",
+        "actor_002",
+        "actor_003",
+        "actor_005",
+        "actor_009"
+      ],
+      "tag_type": "temporal",
+      "tag_value": "Three hundred and sixty fifth day from the day on which it commences",
+      "source_chunk_id": "chunk_9f12cb94"
+    },
+    "link_b8f5a18d": {
+      "id": "link_b8f5a18d",
+      "linked_entity_ids": [
+        "actor_001",
+        "actor_002",
+        "actor_003",
+        "actor_004",
+        "actor_005",
+        "actor_006",
+        "actor_007",
+        "actor_008",
+        "actor_009",
+        "actor_010",
+        "actor_011",
+        "actor_012",
+        "actor_016"
+      ],
+      "tag_type": "temporal",
+      "tag_value": "20 September 2022",
+      "source_chunk_id": "chunk_c5d6832f"
+    },
+    "link_3028ebb2": {
+      "id": "link_3028ebb2",
+      "linked_entity_ids": [
+        "actor_001",
+        "actor_002",
+        "actor_003",
+        "actor_004",
+        "actor_005",
+        "actor_006",
+        "actor_007",
+        "actor_008",
+        "actor_009",
+        "actor_010",
+        "actor_011",
+        "actor_012",
+        "actor_017"
+      ],
+      "tag_type": "temporal",
+      "tag_value": "first anniversary of the day on which the last uncommenced provision of this Act commenced",
+      "source_chunk_id": "chunk_c5d6832f"
+    },
+    "link_003": {
+      "id": "link_003",
+      "linked_entity_ids": [
+        "actor_022",
+        "actor_032"
+      ],
+      "tag_type": "temporal",
+      "tag_value": "18 Aug 2021",
+      "source_chunk_id": "chunk_e9d13943"
+    },
+    "link_004": {
+      "id": "link_004",
+      "linked_entity_ids": [
+        "actor_022",
+        "actor_033"
+      ],
+      "tag_type": "temporal",
+      "tag_value": "23 Aug 2021",
+      "source_chunk_id": "chunk_e9d13943"
+    },
+    "link_005": {
+      "id": "link_005",
+      "linked_entity_ids": [
+        "actor_001",
+        "actor_020"
+      ],
+      "tag_type": "temporal",
+      "tag_value": "Western Australia",
+      "source_chunk_id": "chunk_e9d13943"
+    }
+  },
+  "entity_summaries": {}
+}

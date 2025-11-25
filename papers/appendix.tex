@@ -1,0 +1,368 @@
+%File: gsw_aaai_submission.tex
+% \documentclass[letterpaper]{article} % DO NOT CHANGE THIS
+% \usepackage[submission]{aaai2026}  % DO NOT CHANGE THIS
+% \usepackage{times}  % DO NOT CHANGE THIS
+% \usepackage{helvet}  % DO NOT CHANGE THIS
+% \usepackage{courier}  % DO NOT CHANGE THIS
+% \usepackage[hyphens]{url}  % DO NOT CHANGE THIS
+% \usepackage{graphicx} % DO NOT CHANGE THIS
+% \urlstyle{rm} % DO NOT CHANGE THIS
+% \def\UrlFont{\rm}  % DO NOT CHANGE THIS
+% \usepackage{natbib}  % DO NOT CHANGE THIS AND DO NOT ADD ANY OPTIONS TO IT
+% \usepackage{caption} % DO NOT CHANGE THIS AND DO NOT ADD ANY OPTIONS TO IT
+% \frenchspacing  % DO NOT CHANGE THIS
+% \setlength{\pdfpagewidth}{8.5in} % DO NOT CHANGE THIS
+% \setlength{\pdfpageheight}{11in} % DO NOT CHANGE THIS
+
+% % Additional packages (AAAI-compatible only)
+% \usepackage{makecell}
+% \usepackage{booktabs}       % professional-quality tables
+% \usepackage{amsfonts}       % blackboard math symbols
+% \usepackage{nicefrac}       % compact symbols for 1/2, etc.
+% \usepackage{microtype}      % microtypography
+% \usepackage{xcolor}         % colors
+% \usepackage{tabularx} % For tables that span a specified width, with X columns for wrapping text
+% \usepackage{array}    % For >{\command} column specifications
+% \usepackage{multirow}
+% \usepackage{amsmath}
+% \newcommand\numberthis{\addtocounter{equation}{1}\tag{\theequation}}
+% \usepackage{tcolorbox}
+% \definecolor{mycolor}{RGB}{230, 245, 255}
+% \definecolor{orange}{RGB}{255, 240, 204}
+% \definecolor{colorgreen}{RGB}{240, 255, 220}
+% \usepackage{enumitem}
+% \usepackage{amsthm} % For theorems/lemmas
+
+% % Keep the \pdfinfo as shown here
+% \pdfinfo{
+% /TemplateVersion (2026.1)
+% }
+
+% \setcounter{secnumdepth}{2} %May be changed to 1 or 2 if section numbers are desired.
+
+% % Title
+% % \title{Beyond Fact Retrieval: Episodic Memory for RAG with Generative Semantic Workspaces}
+% % \affiliations{}
+
+% \begin{document}
+\section*{Appendix}
+
+Our technical appendix is structured as follows:
+\begin{enumerate}
+    \item Appendix \ref{app:sec:llmprompts}: Prompts to LLM. 
+    \item Appendix \ref{app:sec:gsw_example}: Example GSW Instance.
+    \item Appendix \ref{app:sec:qa_example}: GSW QA Example. 
+    \item Appendix \ref{app:sec:qualitative_analysis}: Qualitative Analysis of GSW performance.
+    \item Appendix \ref{app:sec:exp}: Further Implementation Details.
+    \item Appendix \ref{app:sec:ablation}: Ablation studies. 
+    \item Appendix \ref{app:sec:relatedmemory}: Related work on Memory Augmentation for LLMs.
+    \item Appendix \ref{app:sec:CompCost}: Computational Costs and Resources for Building the GSW.
+    \item Appendix \ref{app:sec:relatedmodels}: Related Computational Models of Workspaces. 
+\end{enumerate}
+
+\clearpage
+
+% Enable appendix section numbering
+\setcounter{secnumdepth}{1}
+\renewcommand{\thesection}{\Alph{section}}
+\setcounter{section}{0}
+
+\section{Prompts to the LLM}
+\label{app:sec:llmprompts}
+In the following section, we describe the prompts used by each component of our GSW framework. 
+
+\subsection{Operator} 
+\label{app:sec:operator_prompts}
+We present the prompt to generate operator representation in Fig \ref{fig:prompt_operator} and \ref{fig:prompt_spacetime}. The full prompt is considerably longer and includes detailed instructions for each task. For brevity, we have included the introduction and first task in full, with summaries of the remaining tasks. The complete prompt is available in our code repository.
+
+\begin{figure*}[!hbtp]
+\centering
+\includegraphics[width=\linewidth]{Figures/prompts/GSW_prompt_operator.pdf}
+\caption{LLM prompt for Operator extraction.\footnotemark}
+\label{fig:prompt_operator}
+\vspace{-1.5em}
+\end{figure*}
+\footnotetext{Background context generated according to contextual chunking by Anthropic, see \url{https://www.anthropic.com/news/contextual-retrieval}.}
+
+\begin{figure*}[!hbtp]
+\centering
+\includegraphics[width=\linewidth]{Figures/prompts/GSW_prompt_spacetime.pdf}
+\caption{
+LLM prompt for Space Time coupling.
+}
+\label{fig:prompt_spacetime}
+\vspace{-1.5em}
+\end{figure*}
+
+
+\subsection{Reconciler}
+\label{app:sec:reconciler_prompts}
+
+We present the prompt to reconcile unanswered queries with incoming context in Fig \ref{fig:prompt_reconcile}
+
+\begin{figure*}[!hbtp]
+\centering
+\includegraphics[width=\linewidth]{Figures/prompts/GSW_prompt_reconcile.pdf}
+\caption{
+LLM prompt for QA reconciliation.
+}
+\label{fig:prompt_reconcile}
+\vspace{-1.5em}
+\end{figure*}
+
+
+\subsection{Question Answering}
+\label{app:sec:qa_prompts}
+
+We present the prompt to generate entity summaries which are passed to the answering agent in Fig \ref{fig:prompt_summaries} and the prompt used by the answering agent is presented in Fig \ref{fig:prompt_answering}
+
+\begin{figure*}[!t]
+\centering
+\includegraphics[width=0.8\textwidth]{Figures/prompts/GSW_prompt_summary.pdf}
+\caption{
+LLM prompt for entity summary generation.
+}
+\label{fig:prompt_summaries}
+\vspace{-1.5em}
+\end{figure*}
+
+
+\begin{figure*}[hbtp]
+\centering
+\includegraphics[width=\linewidth]{Figures/prompts/GSW_prompt_QA.pdf}
+\caption{
+LLM prompt for final Question Answering.
+}
+\label{fig:prompt_answering}
+\vspace{-1.5em}
+\end{figure*}
+
+\section{Example GSW instance}
+\label{app:sec:gsw_example}
+In this section we present an example instance of the GSW, highlighting the functionality of both the Operator and the Reconciler. Fig \ref{app:fig:gsw_example1} illustrates the operator representations for two separate chunks. Fig \ref{app:fig:gsw_example2} presents the result of reconciling the two representations presented in Fig \ref{app:fig:gsw_example1}. Finally Fig \ref{app:fig:gsw_example3} presents a portion of the final reconciled workspace with reconciled entities, space/time coupling and answered forward falling questions.
+
+
+\begin{figure*}[p]
+\centering
+\vspace*{-1cm}
+\includegraphics[width=0.9\textwidth]{Figures/gsw_example1.pdf}
+\caption{\textbf{Operator example:} Operator instances of two different chunks, as the GSW framework processes a story.}
+\label{app:fig:gsw_example1}
+\vspace{1cm}
+
+\includegraphics[width=0.9\textwidth]{Figures/gsw_example2.pdf}
+\caption{\textbf{Reconciler example:} Reconciled result of the two chunks presented in Fig \ref{app:fig:gsw_example1}}
+\label{app:fig:gsw_example2}
+\vspace{1cm}
+
+\includegraphics[width=0.9\textwidth]{Figures/gsw_example3.pdf}
+\caption{\textbf{Final GSW:} A portion of the final reconciled GSW}
+\label{app:fig:gsw_example3}
+\end{figure*}
+
+\section{GSW QA Example}
+\label{app:sec:qa_example}
+Figure \ref{fig:qa_pipeline} illustrates the end-to-end question answering (QA) pipeline of the GSW framework, showcasing how a sample query from the EpBench dataset is processed through each stage.
+ 
+
+\begin{figure*}[!btp]
+\centering
+\includegraphics[width=\linewidth]{Figures/GSW_QA_pipeline_small.pdf}
+\caption{
+\textbf{Illustrative example of the GSW QA framework:} First, NER is performed on the input query to identify key entities. In this version of QA implementation these extracted entities are matched to the relevant GSW instances of chapters via string matching, and the entity-specific summaries (see Appendix \ref{app:sec:exp_qa}) from the GSWs are retrieved. Subsequently, these retrieved entity summaries are  re-ranked based on their semantic similarity to the input query—a score calculated using cosine similarity between their embeddings and the query's embedding. The figure displays a selection of initially retrieved summaries followed by the top re-ranked summaries. Finally, these re-ranked summaries are passed to an answering LLM, which then produces the final answer. As our considerably smaller average token count shows, our entity summaries are already concise, and only entity-relevant chapters are retrieved. Future implementations could leverage several avenues for further reduction in token counts without compromising performance. For example, in a query involving multiple entities, GSWs that have all the entities could be retrieved and sent to the LLM for a final answer; currently our re-ranking step ranks them at the top but we send summaries from other chapters as well, which is not necessary. 
+}
+\label{fig:qa_pipeline}
+\vspace{-1.5em}
+\end{figure*}
+
+\section{Qualitative Analysis of GSW performance}
+\label{app:sec:qualitative_analysis}
+This section presents a qualitative analysis of selected queries to further illustrate GSW's superior performance and token efficiency compared to baseline methods, as detailed in Table \ref{tab:qual_analysis_comparison}. The chosen queries, whose full text and ground truth answers are provided in Table \ref{tab:qual_queries_answers}, are representative of varying complexity, with answers requiring the synthesis of information linked to two to seven distinct contextual cues. This detailed examination reveals specific failure modes in baseline approaches that GSW is naturally suited to overcome.
+
+For instance, GraphRAG, which generates summaries of varying detail from source documents, frequently struggles with information loss and often provides an excessive volume of irrelevant context to the LLM, increasing the likelihood of hallucinations. This limitation is particularly noticeable in its handling of queries Q3 and Q4 (see Table \ref{tab:qual_analysis_comparison}). These queries demand precise spatial and temporal understanding of events, aspects that GraphRAG's summarization process does not natively or consistently capture, leading to missing information or inaccuracies in its responses.
+
+HippoRAG2, on the other hand, processes every query through its knowledge graph --constructed by connecting semantically similar phrases across triples derived from all the chapters-- to identify the relevant chapters, and then provides full texts of these chapters as context to the LLM for a final answer. The strength of this approach is that they do not need to perform fine-grained analysis of the text -for example for dates and locations;- as long as their retrieval process identifies the right chapter, the onus is on the LLM to retrieve the relevant spatio-temporal information. This is an effective approach if the documents themselves are short and the number of documents needed to answer a query are few. In the EpBench data set the document size is around 500 tokens and the number of documents needed to answer some of the questions is 17; since QA cannot know the number of documents needed for any given question, 17 documents (chapters) were sent for each query across all evaluated methods.  As observed for queries Q2 and Q4 in Table \ref{tab:qual_analysis_comparison}, this strategy of providing full documents can overwhelm the LLM, leading to hallucinations or the failure to pinpoint the correct answer even when the right document with the necessary information is present in the retrieved context. Furthermore, there were instances (e.g., Q3, Q5) where HippoRAG2 failed to retrieve all the pertinent documents required to comprehensively answer the query. 
+
+In contrast, GSW's structured representation and targeted summary generation (as detailed in Table \ref{tab:qual_analysis_comparison} showing 'None' for errors and lower token counts) effectively mitigate these issues. The ability of our GSW framework to collate and then structure spatio-temporal information scattered across the length of a document (via reconciliation) is aptly captured in the entity-level summary for Carter Stewart that is retrieved in response to Q2 (first three sentences are shown below):
+
+\begin{quote}
+    On September 22, 2026, during the morning sessions of a scientific conference at the Metropolitan Museum of Art, Carter Stewart took on the role of a presenter, delivering a final presentation that included statistical analysis using presentation boards and holographic projectors.
+\end{quote}
+The necessary information -- Carter Stewart, location, and time --in the original document came from three different   paragraphs; in fact, Carter Stewart is referred to as "He" until after location and time information is given: 
+\begin{quote}
+The imposing structure loomed before him, its grand facade a testament to both artistry and scientific achievement ...... As he stepped into the \textbf{Metropolitan Museum of Art}, the echoing chatter of excited voices ...... The antique clock in the main hall chimed, its resonant tones reminding him of the date: \textbf{September 22, 2026} ....  found himself particularly engrossed during the third presentation, where \textbf{Carter Stewart} explained statistical analysis with a clarity that left the audience spellbound."
+
+\end{quote}
+\input{Tables/app_sectionD_Queries}
+
+\input{Tables/app_sectionD_perf}
+
+\section{Implementation Details}
+\label{app:sec:exp}
+In this section, we provide further implementation details for the GSW as well as baselines implemented. 
+
+\subsection{Operator}
+\label{app:sec:exp_operator}
+The operator representations are obtained by prompting GPT-4o with the prompt presented in Fig. \ref{fig:prompt_operator} with a temperature of 0 to reduce stochasticity. Prior to obtaining the operator representations, we perform co-reference resolution at a Chapter level resolution. Chapters are then chunked into smaller text chunks each containing three sentences without overlap between consecutive chunks. Space-Time coupling is performed after the operator representations are obtained by prompting GPT-4o with the prompt presented in Fig. \ref{fig:prompt_spacetime} with temperature set to 0 and max generation tokens set to 1000. 
+
+
+\subsection{Reconciler}
+\label{app:sec:exp_reconciler}
+
+Reconciliation is performed on consecutive chunks of operator representations; for our study, we reconcile all chunks of a particular chapter to produce one reconciled GSW representation per chapter. Roles and states for reconciled entities are time-stamped and stored, and this historical information is subsequently utilized during the generation of entity-level summaries.
+
+When a reconciled entity provides new space/time information, its associated space/time nodes are updated accordingly. All previously recorded space/time information is also time-stamped and preserved to enrich these entity-level summaries. Furthermore, it is important to note that if an update to a space/time node is triggered by one entity, this new spatio-temporal information is propagated to all other entities coupled with that same node; this dynamic is illustrated in Figures \ref{app:fig:gsw_example2} and \ref{app:fig:gsw_example3}.
+
+Finally, the reconciliation process also addresses \textit{forward-falling questions} —queries identified by previous Operator instances that can now be answered using the integrated information from the reconciled GSW as detailed in Section 2.1 of the main paper. These questions are resolved by prompting GPT-4o with the instructions detailed in Figure \ref{fig:prompt_reconcile}. For this QA resolution task, the temperature is set to 0 and maximum generation tokens are set to 500.
+
+\subsection{QA}
+\label{app:sec:exp_qa}
+
+Prior to the final question answering (QA) stage, entity-specific summaries are generated using the GSW structure. For each entity, a prompt is constructed incorporating its roles, states, associated spatio-temporal information, and the questions it addresses through verb phrases (as captured in its GSW representation). This summarization prompt, detailed in Figure \ref{fig:prompt_summaries}, is processed by GPT-4o with a temperature of 0 and a maximum of 500 generation tokens.
+
+
+The question answering (QA) process unfolds as follows: First, Named Entity Recognition (NER) is performed on the input question to identify relevant entities for querying the GSW. Based on these extracted entities, basic string matching is used to find corresponding entities within the consolidated GSW representations. Next, the \textbf{entity-specific summaries} (generated as described previously) for these matched entities are retrieved and then re-ranked. This re-ranking is based on the cosine similarity between the embeddings of the entity summaries and the embedding of the input query. To ensure consistency, the Voyage-03 model  is employed as the embedding model for both the summaries and the query. Finally, these re-ranked summaries are passed to the answering agent (GPT-4o ). The context provided to the agent is limited to summaries derived from a maximum of 17 diverse chapters, a constraint applied to maintain consistency across all evaluated methods  and to ensure all dataset questions can be addressed. A detailed example of the QA process is presented in Appendix \ref{app:sec:qa_example}.
+
+\subsection{Baselines}
+For HippoRAG2 \cite{JimenezGutierrez2025HippoRAG}, GraphRAG \cite{Edge2025GraphRAG}, and LightRAG \cite{Guo2024LightRAG}, we adhere to each method's default hyperparameters and prompt formats as provided in their respective official implementations. To ensure consistency across baselines, we modify the answering model in HippoRAG2 to use GPT-4o, aligning it with other evaluated methods. Additionally, we set top-k to 17 for HippoRAG2 to retrieve the top 17 relevant documents to align with the QA settings. The detailed configurations for each baseline are listed in Tables\ref{tab:graphrag-settings}--\ref{tab:lightrag-settings}.
+\input{Tables/app_baseline_parameters}
+\subsection{Bootstrapping for Evaluation}
+
+% \textcolor{red}{
+In our main evaluation for EpBench-200 and EpBench-2000, we represent error bars computed via bootstrap resampling on 1,000 iterations. For each evaluation, we resampled the test set predictions with replacement and computed performance metrics on each bootstrap sample. The LLM judge operated with temperature=0 for deterministic outputs. These standard deviations indicate the variability in scores when different combinations of test examples are weighted through resampling
+% }
+
+
+\section{Ablation Studies}
+\label{app:sec:ablation}
+We present the results of ablation studies we performed on our GSW framework.
+
+\subsection{Evaluating the GSW on the Short Book Dataset}
+Table \ref{Table:appendix_metric_grouped_short_book} presents results comparing GSW against Vanilla LLM on the shorter 20-chapter variant of EpBench. Both GSW and Vanilla LLM demonstrate strong performance on this smaller dataset. The Vanilla LLM performs particularly well on this version because the entire context length is approximately 10,000 tokens, which easily fits within the model's context window. Notably, even with this shorter context, we observe that Vanilla LLM begins to struggle relative to GSW as the number of matching cues increases, particularly in the 3-5 cue category where GSW shows superior recall (0.910 vs 0.781) and F1-score (0.857 vs 0.777).
+
+This finding further supports our main results presented in Table 2 of the main paper, as it demonstrates how Vanilla LLM's performance deteriorates with increased context length. While performing competitively on short narratives, Vanilla LLM struggles with the 200-chapter version where context exceeds 100,000 tokens. In contrast, GSW maintains robust performance across both short and long narratives , highlighting the value of our approach.
+\input{Tables/app_Epbench_20}
+
+\subsection{Detailed Results on EpBench-2000}
+
+The detailed statistics for EpBench-2000 are presented in Table \ref{tab:dataset_stats_2000}. Although the maximum number of chapters referenced per query in the EpBench-2000 dataset reaches 138, we choose to limit the maximum context utilization to 17 chapters per query, maintaining the same configuration applied to EpBench-200 in the main paper. This choice is based on the fact that the 138-chapter scenario represents an extreme outlier, while 17 chapters suffice to address the majority of queries effectively. Furthermore, processing 138 chapters per query would introduce significant computational overhead and inefficiencies, as it requires feeding an excessive volume of text to the model, which could negatively impact both performance and resource utilization. Since we use the same number of chapters per query as in EpBench-200, we therefore expect a very similar token usage.
+
+
+% \textcolor{red}{
+Table \ref{Table:epbench_2000_bootstrap} reports the complete set of metrics for GSW and all baselines on the EpBench-2000 dataset, broken down by cue complexity. These results expand upon the summary in the main text, demonstrating that GSW retains its lead across all levels of episodic complexity, and outperforming the strongest baseline by more than \textbf{15\%} in F1-score and \textbf{14\%} in recall. The EpBench-2000 experiment further highlights GSW’s ability to scale effectively while maintaining strong performance in long-context, high-recall settings.
+% }
+\input{Tables/data_content_2000}
+\input{Tables/epbench_2000_bootstrap}
+\subsection{Ablating components of the GSW for Question Answering}
+\input{Tables/app_ablation_gsw}
+
+Table ~\ref{Table:gsw_ablation_study_fully_filled} presents the results of ablating both components of the GSW as well as approaches to retrieval, highlighting the importance of each component and our string matching + reranking retrieval mechanism. We note that while naive string matching achieves almost similar performance to our retrieval method, it consumes almost double the number of tokens.
+
+
+% \include{Tables/epbench_200_bootstrap}
+% \include{Tables/epbench_2000_bootstrap}
+% \include{Tables/epbench_2000_short}
+\section{Related work on Memory Augmentation for LLMs}
+\label{app:sec:relatedmemory}
+
+Enabling LLMs to effectively process long narratives requires capabilities akin to human episodic memory – constructing and maintaining a dynamic, coherent understanding of events unfolding over space and time \cite{tulving_episodic_1972, eichenbaum_corticalhippocampal_2000}. Key to this is the ability to accurately track entities, including their evolving states and roles, and to ground events and answer queries based on specific spatial and temporal contexts established within the narrative \cite{huet_episodic_2025}. While LLMs possess remarkable core abilities, achieving this level of sophisticated, stateful reasoning over extended sequences remains a significant challenge. The following sections analyze inherent limitations in common approaches used to provide context to LLMs, evaluating why they often fall short of systematically delivering these specific episodic memory capabilities.
+
+\subsection{Leveraging Long context LLMs}
+
+One approach to providing LLMs with relevant context is to leverage their increasingly large context windows, potentially feeding the entire long narrative along with a query into the prompt. The rapid expansion of context lengths, now reaching millions of tokens, has certainly broadened the scope of tasks LLMs can handle by allowing more raw information to be processed simultaneously \cite{team2024gemini}.
+
+However, relying solely on this native processing mechanism faces significant hurdles when evaluated against the demands of episodic memory. Firstly, while context windows are growing, they are not infinite, and extremely long narratives may still exceed even the largest available limits. Secondly, even when a narrative technically fits, processing vast amounts of text for every query is computationally expensive, impacting latency and cost. More fundamentally, processing quality often degrades with extreme context lengths \cite{leng2024long, hsieh_ruler_2024, wang2024multimodal}. Research has shown that LLMs can struggle to consistently access and utilize information spread across very long contexts, with performance notably dipping for information located in the middle (\textit{lost in the middle} phenomenon) \cite{liu_lost_2023}. Feeding potentially large amounts of irrelevant text alongside the crucial details for a specific episodic query can distract the model and hinder its ability to pinpoint and reason over the necessary information.
+
+Finally, perhaps the most critical limitation for systematic episodic tracking is the inherently unstructured nature of the input context. Even with all the necessary details about entity states, roles, locations, and times present within the text, the LLM lacks explicit mechanisms to structure this information dynamically. It must rely solely on its attention mechanism and in-context learning to piece together relationships, track state changes, and maintain temporal coherence across potentially thousands of tokens. This makes the reliable, systematic tracking required for robust episodic memory challenging and often brittle when relying only on the native context window \cite{huet_episodic_2025}.
+
+\subsection{Memory Augmentation for LLMs}
+
+To overcome the challenges of static parametric knowledge and the inefficiencies of processing entire documents in context, Retrieval-Augmented Generation (RAG) has become a standard technique \cite{lewis_retrieval-augmented_2021, gao_retrieval-augmented_2024}. The typical RAG pipeline involves pre-processing a knowledge corpus (e.g., the entire narrative document) into smaller chunks. These chunks are then indexed, commonly using dense vector embeddings obtained from encoder style LLMs\cite{bert, reimers_sentence-bert_2019, lee_nv-embed_2025}, though sparse methods like BM25\cite{robertson_probabilistic_2009} or hybrid approaches are also employed \cite{cormack2009reciprocal}. At inference time, the user query is used to retrieve the top-k most relevant chunks from the index based on a similarity metric (e.g., cosine similarity for dense vectors). These retrieved chunks are then presented as augmented context to an LLM, which generates the final response based on both its parametric knowledge and the retrieved information.\cite{ram_-context_2023}
+
+This approach has proven effective for many knowledge-intensive tasks, particularly fact-based question answering where retrieving specific evidence snippets is sufficient \cite{karpukhin-etal-2020-dense}. However, when evaluated against the requirements of robust episodic memory recall over long narratives, the limitations of standard RAG become apparent \cite{huet_episodic_2025}. Firstly, the process of retrieving discrete, potentially disconnected chunks based on local query relevance often \textbf{fragments the narrative flow}. This makes it exceedingly difficult for the LLM to reliably follow evolving storylines or track the \textbf{changing states and roles of entities} over time, as the necessary context may be spread across multiple chunks that are not retrieved together\cite{chen_walking_2023}.
+
+
+Moreover, this fragmentation problem is compounded by the framework being highly sensitive to the initial chunking strategy\cite{merola2025reconstructing}. Arbitrary chunk boundaries can split crucial information related to an event or an entity's state, leading to information loss during retrieval. For instance, if a character's state changes within a passage, but the chunking algorithm divides this passage at an inopportune point, the complete context of this state change may not be captured in any single retrieved chunk. Optimal chunking is non-trivial and can significantly impact the ability to reconstruct the necessary context for complex episodic reasoning. Consequently, while standard RAG offers efficiency gains over naive long-context processing, its inherent lack of structure and narrative coherence makes it ill-suited for systematically addressing the dynamic, stateful, and context-dependent nature of episodic memory tasks.
+
+Additionally, standard RAG mechanisms based on semantic similarity often struggle with incorporating specific spatio-temporal constraints that are essential for episodic memory. Embeddings typically capture semantic content but may not adequately encode the nuances of time and location, making it difficult to retrieve context relevant to a specific point in time or place mentioned in a query or implied by the narrative history.
+
+
+\subsection{Structured Representations as Memory}
+
+Recognizing the limitations of standard RAG, particularly its tendency to fragment narratives and struggle with temporal coherence, recent work has explored incorporating more explicit structure into the retrieval and augmentation process. Instead of treating the source narrative as a flat sequence of independent chunks, these methods attempt to build richer representations that capture relationships or hierarchies within the text, aiming to provide more contextually relevant information to the LLM.
+
+While these structured approaches offer advantages over standard RAG by preserving more relational or hierarchical context and enabling more sophisticated information integration (like multi-hop reasoning or global summarization), they still face challenges when viewed through the lens of episodic memory \cite{huet_episodic_2025}. Graph-based methods like GraphRAG\cite{Edge2025GraphRAG}, LightRAG\cite{Guo2024LightRAG}, HippoRAG\cite{JimenezGutierrez2025HippoRAG, gutierrez_hipporag_2025} and RAPTOR\cite{sarthi_raptor_2024} suffer from two broad limitations. First, they lack mechanisms to track entity state/role changes across time—they represent entities as static nodes without modeling how attributes or relationships evolve throughout a narrative. Second, they provide no specific framework to ground the evolving narrative in space and time, making it difficult to represent sequential developments or causal relationships. These methods typically represent semantic relationships or summarize community structures within a potentially static corpus, but they are not explicitly designed to model the temporal flow of events within a single narrative or to meticulously track the dynamic changes in entity states and roles as the narrative unfolds sequentially. Their structure captures connections, but not necessarily the chronological progression and state transitions required for recalling specific episodes.
+
+Other research efforts have targeted episodic memory more directly. For instance, Larimar \cite{das_larimar_2024} proposes modifications to the LLM's attention mechanism, while EM-LLM \cite{fountashuman} introduces specific memory components integrated with openweight models. While promising, these approaches often require fundamental changes to the LLM architecture or are designed specifically for openweight models, limiting their applicability. In contrast, our GSW framework is proposed as a plug-and-play episodic memory module compatible with any underlying LLM (including closed-source models like GPT-4o via API) and, critically, requires no specialized training or fine-tuning of model parameters, relying instead on the LLM's capabilities for its operator and reconciliation functions.
+
+\section{Computational Costs and Resources for Building the GSW}
+\label{app:sec:CompCost}
+
+The primary computational costs for the Generative Semantic Workspace (GSW) framework are associated with its initial, one-time indexing process. To index the 200 chapters of the Epbench dataset, the total expense is approximately \$15 when utilizing GPT-4o. This cost covers all stages of GSW construction, including the generation of operator representations, reconciliation, and the creation of entity-specific summaries. By leveraging parallel calls to the OpenAI API, managed via the Bespoke Curator library \cite{bespoke_curator}, this entire indexing task for 200 chapters can be completed in roughly 1 hour. Alternatively, the OpenAI Batch API can be used to reduce costs, with indexing taking hours. 
+
+Our primary experiments leverage API-based models (e.g., GPT-4o) and therefore do not necessitate dedicated local computing infrastructure. However, for tasks such as running the baseline method evaluations reported in this study, and for broader experimentation involving various dense retriever models or locally-hosted chat models, we utilized a single server node equipped with four A6000 GPUs.
+
+\section{Related Computational Models of Semantics}
+\label{app:sec:relatedmodels}
+Semantic representation frameworks have a rich history in NLP, yet as we explore below, their design choices create inherent limitations for tracking evolving actor states and relationships—a critical requirement for episodic memory. Among the most influential frameworks are PropBank~\cite{propbank} and FrameNet~\cite{framenet}, which attempt to define correspondences between (a) the syntactic ``realizations'' of semantics \textit{explicit} within language structure, and (b) finite, discrete sets of semantic ``roles''~\cite{levin}. These approaches rely heavily on manually-annotated lexicon ontologies developed by expert linguists. While valuable for understanding individual sentences, they were not designed for the dynamic, interconnected tracking that episodic memory demands. Below, we detail these frameworks and their limitations for serving as memory systems:
+
+
+\noindent \textbf{PropBank:} PropBank utilized a \textit{bottom-up} approach: (1) Dependency Parse Trees~\cite{dpt} were applied to a large text corpus to distill shared syntactic patterns (``Framesets'') specific to each verb (a process known as ``lexical sampling''). (2) For each Frameset, the corresponding sentences were manually annotated with an enumerated set of \textit{arguments} \texttt{ARG:0,\dots, ARG:N}. These arguments were later associated to verb-specific definitions using VerbNet~\cite{verbnet}. The  semantic roles are identified as corresponding \textit{spans} within the sentence (commonly a \texttt{NP}, \texttt{NNP} subtree in the dependency parsing). For example, the sentence (A):
+    \begin{center}
+
+    \noindent \textbf{Officers} captured \textbf{Sarah} at the \\ \textbf{Sepulveda on-ramp} of the \textbf{405}.
+    \end{center}
+would be annotated with the arguments: 
+\begin{center}
+
+\noindent \textit{Agent}: \textbf{officers}, \textit{Predicate}: \textbf{captured}, \textit{Patient}: \textbf{Sarah}.
+\end{center}
+Perhaps the greatest benefit of PropBank was that its syntactic ``grounding'' made it possible for rule-based and early ML models~\cite{rml, srlbert} to \textit{learn the task of distilling the semantics} given a sentence, albeit within the confines of a \textit{ limited} ontology of $>3000$ verbs and $>4000$ Framesets 
+
+\noindent \textit{Event Databases:} PropBank evolved in several directions, including efforts to unify it with related semantic lexicon such as VerbNet and FrameNet~\cite{semlink, semlink2}, or augment it via the DWD overlay~\cite{dwdoverlay} to WikiData~\cite{wikidata}. The latter of these efforts now manifests as ``Event'' databases~\cite{eventreview, xiang2019survey} such as the ACE~\cite{ace} and ERE~\cite{ere} datasets, and led to the DARPA initiative of Event identification/extraction challenges. Events are best motivated by their related identification tasks: Given a sentence, identify the event(s) -- from a set of \textit{hundreds} of events in a pre-annotated schema~\cite{glen, eventextract, text2event} -- that the sentence is referring to. For example, (A) would be annotated with the \textit{Capture} event.  
+
+
+
+\noindent \textbf{FrameNet:} In contrast to PropBank and related Event ontologies, FrameNet\footnote{\url{https://framenet.icsi.berkeley.edu/}} utilizes a \textit{top-down} approach that is not tethered to the syntax structure. Rather, expert linguists aggregated roles (redefined as ``Frame Elements'' (FE)) from a large corpus of sentences, which are \textit{known to co-exist} under a conceptual gestalt, or ``Frame''. Each frame additionally comprises a set of ``Lexical Units'' (LU) - valences (mostly verbs and nouns) whose occurrence in a sentence increases the likelihood of a frame. For example,
+\begin{center}
+the \textit{Frame}: \textbf{Taking Captive} 
+\end{center}
+would contain the following frame elements and lexical units: 
+\begin{center}
+FE: \textit{Agent}, \textit{Captive}, \textit{Cause} \\
+LU: \textit{capture.v}, \textit{secure.v}
+\end{center}
+
+ FrameNet (thousands of frames and tens of thousands of FE) is a substantially larger and more comprehensive ontology~\cite{framenetcompare} compared to Propbank. When originally constructed, automated systems could not effectively identify the frames implied by a sentence; today, however, Transformer models~\cite{attention, bert, fst} have demonstrated success at accurately modeling the sentence-to-frame mapping.
+
+Despite the enormous success and wide adoption of PropBank, FrameNet, and their descendant works, the explicit, finite, and discrete lexicons they employ raise the question: \textit{When is an explicit lexicon ontology complete?}.  While FrameNet provides Frame-Frame precedence and subset relationships, these are coarse-grained and do not adequately answer the question: \textit{How can we track the evolution of semantics across a stream of sentences?} - a key requirement for any semantic model to serve as a memory.
+
+More recent work ~\cite{conceptnet} has attempted to assemble a comparatively larger (and less stringent) open-schema semantic ontology of concepts using game-play based crowd-sourcing techniques~\cite{verbosity}. However, such efforts to scale manual annotation ultimately do not address how a complete ontology can be constructed. Event Graph Models (EGM)~\cite{tegm} generate event networks to describe the dynamics of events in a text corpus, often using a combination of submodules such as Coreference Resolution~\cite{coref}, Named Entity Recognition (NER)~\cite{ner} and Semantic Role Labeling~\cite{srl}. Extensions~\cite{future} generate the \textit{most likely} event \textit{template} sequences. These methods rely on predefined event schema to enumerate the set of possible events. However, while EGMs both track the evolution of semantics across sentences and offer an unsupervised approach to extending existing ontologies, these often marginalize across individual contexts in the training corpus, and generate the most likely event \textit{schema} that follows a current event schema network. As a result, these works have yet to design methods to track the semantics across a specific document. The GSW, particularly through the operator, is designed to overcome these challenges by generating actor-centric, evolving semantic maps that are not constrained by predefined, static lexicons and can capture the nuances of unfolding situations.To demonstrate the GSW Operator's effectiveness in producing these comprehensive semantic maps from complex, real-world text, we conducted a qualitative human evaluation.
+
+\subsection{Comparing Existing Semantic Models to the Operator}
+
+To empirically validate the Operator's capability in generating these comprehensive semantic maps, particularly its proficiency in interpreting narrative-rich texts where actor, roles and states undergo significant evolution, we leveraged news reports, as they are a popular resource for sampling semantics-rich stories that belong to universally recognized situation patterns.
+We query GDELT~\cite{gdelt}, a Jigsaw-powered news-indexing platform, with Situation identifiers to retrieve a small set of situation-conditioned \texttt{en\_US} articles. Table ~\ref{tab:operator_data} presents statistics about the data. These situations were manually selected as an initial seed set -- similar to FrameNet's early versions containing few frames~\cite{fillmore} -- to assess the validity of the GSW framework. Situation-specific seeds are assembled using a bootstrapped method that invokes FrameNet: (a) Frames are linked using subframe and precedence relationships to create weakly connected components; (b) Headers/labels of the frames in each component form the seed search phrases. We evaluate our framework on situations like ``Crime and Justice'', ``Fire Fighting'', ``Healthcare'', and ``Technology Development''.
+
+\input{Tables/operator_dataset_stats}
+
+Table \ref{tab:operator-framework} presents these results across five diverse situations, showing strong human preference for the Operator generated representations compared to existing semantic frameworks.
+
+
+\input{Tables/operatorframeworks}
+
+
+\subsection{Annotator Guidelines}
+
+Annotators who exceeded $\$50K$ in total gross pay were recruited from UpWork, a talent resource. These candidates were first interviewed in a $10$-minute session to verify that they were proficient in English and those that had prior experience in annotating large-scale AI/ML data -- listed as a verified skill on the platform -- were selected to move on to the next round. Following this, they were given a set of $10$ task prototype examples and $10$ unanswered labeling tasks. Those that got $9$ out of the $10$ annotations right moved on to the first round of labeling. Each task was labeled twice -- by the \textit{annotator} and a \textit{verifier} -- to ensure quality of the results. Annotators were paid $\$5 / 40 \textrm{ samples}$ which was estimated to take them about $30$ minutes at most, or at the rate of $\$10 / \textrm{hour}$, which was confirmed to exceed the federal minimum wage where the annotators were situated. Annotator guidelines are presented in Fig.~\ref{fig:ann}
+
+
+\begin{figure*}[t]
+\centering
+\includegraphics[width=0.8\textwidth]{Figures/operatorv2.png}
+\caption{\textbf{Annotator instructions for UpWork Task:} Annotators are asked to compare the outputs of the Operator to the Semantic map output by a baseline framework (either GLEN, BertSRL, FST) given a shared input text context. During annotation, one random baseline map and the Operator output are presented in random order and the annotator is asked to pick the representation of the Semantics that best reflects the information in the context.}
+\label{fig:ann}
+\end{figure*}
+\clearpage
+% \bibliography{custom}
+% \end{document}

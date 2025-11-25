@@ -1,0 +1,118 @@
+{
+  "domain_name": "tax",
+  "total_documents": 168,
+  "date_range": {
+    "min": "1979-06-12",
+    "max": "2024-09-06"
+  },
+  "type_distribution": {
+    "decision": 154,
+    "primary_legislation": 4,
+    "secondary_legislation": 10
+  },
+  "jurisdiction_distribution": {
+    "commonwealth": 134,
+    "new_south_wales": 24,
+    "tasmania": 9,
+    "queensland": 1
+  },
+  "source_distribution": {
+    "federal_court_of_australia": 77,
+    "high_court_of_australia": 57,
+    "nsw_caselaw": 20,
+    "nsw_legislation": 4,
+    "tasmanian_legislation": 9,
+    "queensland_legislation": 1
+  },
+  "category_breakdown": {
+    "Tax_Federal": 136,
+    "Tax_State": 32
+  },
+  "year_distribution": {
+    "1995": 3,
+    "2004": 3,
+    "2015": 9,
+    "1996": 3,
+    "1997": 6,
+    "2021": 4,
+    "1998": 3,
+    "2020": 8,
+    "1999": 3,
+    "2008": 2,
+    "2024": 8,
+    "2006": 4,
+    "2007": 3,
+    "2000": 3,
+    "2013": 3,
+    "2005": 3,
+    "2016": 2,
+    "1988": 2,
+    "2023": 3,
+    "1979": 1,
+    "2012": 2,
+    "2022": 2,
+    "2014": 7,
+    "2019": 5,
+    "2002": 3,
+    "2010": 4,
+    "2017": 2,
+    "2003": 1,
+    "2001": 2,
+    "1986": 1,
+    "2011": 5,
+    "2018": 1
+  },
+  "court_codes": {
+    "FCA": 64,
+    "HCA": 50,
+    "NSWSC": 10,
+    "NSWCATAD": 6,
+    "FCAFC": 13,
+    "NSWADT": 4
+  },
+  "text_stats": {
+    "min": 32465,
+    "max": 119607,
+    "mean": 74824.5,
+    "median": 73613.0,
+    "std": 37247.95434651412
+  },
+  "legal_terms": {
+    "appeal": 4,
+    "contract": 2,
+    "damages": 1,
+    "costs": 2,
+    "order": 2,
+    "judgment": 2,
+    "custody": 1,
+    "conviction": 1,
+    "bail": 1,
+    "guilty": 1,
+    "breach": 1,
+    "liability": 1,
+    "evidence": 1
+  },
+  "sample_citations": [
+    "Commissioner of Taxation v Northumberland Development Co Pty Ltd [1995] FCA 588",
+    "Gibb v Commissioner of Taxation (Cth) [1966] HCA 74",
+    "Deputy Commissioner of Taxation v Warrick (No 2) [2004] FCA 918",
+    "Qantas Airways Limited v Chief Commissioner of State Revenue [2015] NSWSC 826",
+    "Re Tait, Jon R Ex Parte Deputy Commissioner of Taxation [1996] FCA 280",
+    "Lamesa Holdings BV v Commissioner of Taxation [1997] FCA 375",
+    "ACTIC Pty Ltd v Cabool & UPRE [2004] NSWSC 302",
+    "Fairfax v Commissioner of Taxation (Cth) [1965] HCA 64",
+    "Parking Space Levy Act 2009 (NSW)",
+    "Chelsea Investments Pty Ltd v Commissioner of Taxation (Cth) [1966] HCA 15",
+    "Jones, Michael Gregory v Deputy Commissioner of Taxation & Anor [1998] FCA 1076",
+    "Dang & Nguyen Pty Ltd v Chief Commissioner of State Revenue [2020] NSWCATAD 120",
+    "Australia & New Zealand Savings Bank Ltd v Commissioner Of Taxation Of The Commonwealth Of Australia [1997] FCA 497",
+    "Stocks & Holdings (Sales) Pty Ltd v Commissioner of Taxation (Cth) [1969] HCA 35",
+    "Commissioner of Taxation v Pilnara Pty Ltd [1999] FCA 1805",
+    "NAB v Chief Commissioner of State Revenue [2008] NSWSC 731",
+    "Commissioner of Taxation v Michael John Hayes Trading Pty Ltd as trustee of the MJH Trading Trust [2024] FCAFC 80",
+    "Queensland Rail v Commissioner of Taxation [2006] FCA 816",
+    "Perdikaris v Deputy Commissioner of Taxation (No 2) [2007] FCA 2087",
+    "Federal Commissioner of Taxation v Brewing Investments Ltd [2000] FCA 920"
+  ],
+  "generated_at": "2025-11-25T11:38:55.416799"
+}

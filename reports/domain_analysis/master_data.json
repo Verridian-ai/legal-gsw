@@ -1,0 +1,400 @@
+{
+  "generated_at": "2025-11-25T11:38:55.491479",
+  "total_documents": 18076,
+  "domain_count": 14,
+  "domains": {
+    "Administrative": {
+      "document_count": 9368,
+      "type_distribution": {
+        "secondary_legislation": 95,
+        "decision": 9112,
+        "primary_legislation": 109,
+        "bill": 52
+      },
+      "jurisdiction_distribution": {
+        "tasmania": 91,
+        "commonwealth": 4723,
+        "south_australia": 30,
+        "new_south_wales": 4419,
+        "queensland": 69,
+        "western_australia": 29,
+        "norfolk_island": 7
+      },
+      "date_range": {
+        "min": "1951-12-06",
+        "max": "2024-09-11"
+      },
+      "court_codes": {
+        "HCA": 733,
+        "NSWSC": 1476,
+        "NSWCATAD": 137,
+        "NSWCATGD": 25,
+        "NSWLEC": 793,
+        "NSWCCA": 411,
+        "FCA": 3434,
+        "FCAFC": 376,
+        "NSWCA": 422,
+        "NSWADTAP": 31,
+        "NSWDC": 273,
+        "NSWCATAP": 124,
+        "NSWCATCD": 54,
+        "NSWADT": 220,
+        "NSWCATOD": 104,
+        "IRCA": 135,
+        "NSWDDT": 26,
+        "NSWLC": 20,
+        "ADFDAT": 5,
+        "NSWCC": 15,
+        "NSWIC": 1,
+        "NSWMT": 15,
+        "NFSC": 6,
+        "NSWCATEN": 2,
+        "NSWTAB": 4,
+        "NSWLST": 5,
+        "AFPDT": 1,
+        "ACN": 1,
+        "ACOPYT": 1
+      }
+    },
+    "Commercial": {
+      "document_count": 315,
+      "type_distribution": {
+        "decision": 291,
+        "primary_legislation": 16,
+        "secondary_legislation": 8
+      },
+      "jurisdiction_distribution": {
+        "new_south_wales": 157,
+        "commonwealth": 140,
+        "south_australia": 3,
+        "tasmania": 11,
+        "queensland": 3,
+        "western_australia": 1
+      },
+      "date_range": {
+        "min": "1981-11-13",
+        "max": "2024-08-09"
+      },
+      "court_codes": {
+        "NSWSC": 146,
+        "FCA": 133,
+        "NSWCA": 4,
+        "ACN": 1,
+        "HCA": 2,
+        "FCAFC": 3,
+        "NSWDC": 1
+      }
+    },
+    "Constitutional": {
+      "document_count": 14,
+      "type_distribution": {
+        "secondary_legislation": 5,
+        "decision": 8,
+        "primary_legislation": 1
+      },
+      "jurisdiction_distribution": {
+        "tasmania": 6,
+        "commonwealth": 7,
+        "new_south_wales": 1
+      },
+      "date_range": {
+        "min": "2008-10-02",
+        "max": "2024-08-21"
+      },
+      "court_codes": {
+        "HCA": 6,
+        "FCAFC": 1,
+        "NSWDC": 1
+      }
+    },
+    "Criminal": {
+      "document_count": 277,
+      "type_distribution": {
+        "decision": 196,
+        "secondary_legislation": 37,
+        "primary_legislation": 31,
+        "bill": 13
+      },
+      "jurisdiction_distribution": {
+        "new_south_wales": 189,
+        "south_australia": 16,
+        "western_australia": 13,
+        "tasmania": 31,
+        "commonwealth": 17,
+        "queensland": 11
+      },
+      "date_range": {
+        "min": "1982-08-13",
+        "max": "2024-09-13"
+      },
+      "court_codes": {
+        "NSWCCA": 4,
+        "NSWSC": 99,
+        "NSWDC": 67,
+        "FCA": 6,
+        "HCA": 10,
+        "NSWLEC": 1,
+        "NSWCA": 3,
+        "NSWADT": 3,
+        "FCAFC": 1
+      }
+    },
+    "Equity": {
+      "document_count": 50,
+      "type_distribution": {
+        "primary_legislation": 4,
+        "decision": 34,
+        "secondary_legislation": 12
+      },
+      "jurisdiction_distribution": {
+        "queensland": 2,
+        "new_south_wales": 35,
+        "tasmania": 10,
+        "western_australia": 2,
+        "commonwealth": 1
+      },
+      "date_range": {
+        "min": "1967-09-11",
+        "max": "2024-06-05"
+      },
+      "court_codes": {
+        "NSWSC": 33,
+        "FCA": 1
+      }
+    },
+    "Family": {
+      "document_count": 54,
+      "type_distribution": {
+        "decision": 30,
+        "bill": 4,
+        "primary_legislation": 10,
+        "secondary_legislation": 10
+      },
+      "jurisdiction_distribution": {
+        "commonwealth": 13,
+        "south_australia": 4,
+        "tasmania": 9,
+        "new_south_wales": 19,
+        "western_australia": 5,
+        "queensland": 4
+      },
+      "date_range": {
+        "min": "1997-07-17",
+        "max": "2024-07-30"
+      },
+      "court_codes": {
+        "HCA": 10,
+        "NSWSC": 9,
+        "FCA": 3,
+        "NSWLEC": 1,
+        "NSWDC": 5
+      }
+    },
+    "Industrial": {
+      "document_count": 187,
+      "type_distribution": {
+        "decision": 161,
+        "primary_legislation": 15,
+        "bill": 4,
+        "secondary_legislation": 7
+      },
+      "jurisdiction_distribution": {
+        "commonwealth": 110,
+        "new_south_wales": 60,
+        "south_australia": 3,
+        "tasmania": 8,
+        "queensland": 3,
+        "western_australia": 3
+      },
+      "date_range": {
+        "min": "1967-12-19",
+        "max": "2024-09-01"
+      },
+      "court_codes": {
+        "FCA": 77,
+        "HCA": 14,
+        "NSWDC": 14,
+        "FCAFC": 10,
+        "IRCA": 7,
+        "NSWSC": 3,
+        "NSWCATAD": 1
+      }
+    },
+    "Legislation_Other": {
+      "document_count": 7097,
+      "type_distribution": {
+        "secondary_legislation": 3296,
+        "primary_legislation": 3238,
+        "bill": 563
+      },
+      "jurisdiction_distribution": {
+        "tasmania": 2210,
+        "new_south_wales": 1515,
+        "south_australia": 1052,
+        "queensland": 1121,
+        "western_australia": 1199
+      },
+      "date_range": {
+        "min": "1830-01-18",
+        "max": "2024-09-13"
+      },
+      "court_codes": {
+        "CT": 1,
+        "GDA": 1
+      }
+    },
+    "Procedural": {
+      "document_count": 157,
+      "type_distribution": {
+        "decision": 151,
+        "secondary_legislation": 2,
+        "primary_legislation": 4
+      },
+      "jurisdiction_distribution": {
+        "new_south_wales": 132,
+        "commonwealth": 21,
+        "queensland": 2,
+        "tasmania": 1,
+        "western_australia": 1
+      },
+      "date_range": {
+        "min": "1979-07-04",
+        "max": "2024-09-13"
+      },
+      "court_codes": {
+        "NSWSC": 105,
+        "NSWDC": 19,
+        "FCA": 16,
+        "NSWDDT": 2,
+        "NSWCA": 2,
+        "HCA": 5,
+        "NSWLC": 1,
+        "NSWCCA": 1
+      }
+    },
+    "Property": {
+      "document_count": 229,
+      "type_distribution": {
+        "decision": 117,
+        "primary_legislation": 27,
+        "secondary_legislation": 83,
+        "bill": 2
+      },
+      "jurisdiction_distribution": {
+        "new_south_wales": 80,
+        "tasmania": 15,
+        "western_australia": 61,
+        "south_australia": 8,
+        "commonwealth": 57,
+        "queensland": 8
+      },
+      "date_range": {
+        "min": "1922-06-23",
+        "max": "2024-08-20"
+      },
+      "court_codes": {
+        "NSWSC": 46,
+        "FCA": 40,
+        "NSWLEC": 6,
+        "HCA": 12,
+        "NSWDC": 3,
+        "NSWCATCD": 3,
+        "FCAFC": 5,
+        "NSWADT": 1,
+        "NSWCA": 1
+      }
+    },
+    "Specialized": {
+      "document_count": 26,
+      "type_distribution": {
+        "secondary_legislation": 7,
+        "primary_legislation": 10,
+        "decision": 8,
+        "bill": 1
+      },
+      "jurisdiction_distribution": {
+        "south_australia": 3,
+        "tasmania": 5,
+        "western_australia": 3,
+        "new_south_wales": 7,
+        "queensland": 4,
+        "commonwealth": 4
+      },
+      "date_range": {
+        "min": "1994-12-12",
+        "max": "2024-09-01"
+      },
+      "court_codes": {
+        "NSWSC": 3,
+        "NSWLC": 1,
+        "FCA": 3,
+        "HCA": 1
+      }
+    },
+    "Tax": {
+      "document_count": 168,
+      "type_distribution": {
+        "decision": 154,
+        "primary_legislation": 4,
+        "secondary_legislation": 10
+      },
+      "jurisdiction_distribution": {
+        "commonwealth": 134,
+        "new_south_wales": 24,
+        "tasmania": 9,
+        "queensland": 1
+      },
+      "date_range": {
+        "min": "1979-06-12",
+        "max": "2024-09-06"
+      },
+      "court_codes": {
+        "FCA": 64,
+        "HCA": 50,
+        "NSWSC": 10,
+        "NSWCATAD": 6,
+        "FCAFC": 13,
+        "NSWADT": 4
+      }
+    },
+    "Torts": {
+      "document_count": 134,
+      "type_distribution": {
+        "decision": 106,
+        "primary_legislation": 17,
+        "secondary_legislation": 9,
+        "bill": 2
+      },
+      "jurisdiction_distribution": {
+        "new_south_wales": 98,
+        "commonwealth": 19,
+        "tasmania": 4,
+        "south_australia": 1,
+        "queensland": 10,
+        "western_australia": 2
+      },
+      "date_range": {
+        "min": "1995-08-03",
+        "max": "2024-07-01"
+      },
+      "court_codes": {
+        "NSWDC": 37,
+        "HCA": 14,
+        "NSWSC": 44,
+        "NSWCA": 5,
+        "FCA": 5,
+        "NSWDDT": 1
+      }
+    },
+    "Unclassified": {
+      "document_count": 0,
+      "type_distribution": {},
+      "jurisdiction_distribution": {},
+      "date_range": {
+        "min": null,
+        "max": null
+      },
+      "court_codes": {}
+    }
+  }
+}

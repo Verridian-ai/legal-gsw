@@ -1,0 +1,46 @@
+% \begin{table}[htbp]
+% \centering
+% \caption{\textbf{Dataset Statistics:} Statistics for the EpBench Dataset ("Long Book" Version) used in Experiments.}
+% \label{tab:dataset_stats}
+% \begin{tabular}{@{}lr@{}}
+% \toprule
+% Statistic                               & Value \\
+% \midrule
+% Number of Chapters                      & 200 \\
+% Total Number of Tokens                  & 102,870 \\
+% Total Number of Queries (QA Pairs)      & 686 \\
+% \midrule
+% \multicolumn{2}{@{}l}{\textit{Number of Queries by Matching Event Category:}} \\
+% \quad 0 Matching Events                 & 180 \\
+% \quad 1 Matching Event                  & 180 \\
+% \quad 2 Matching Events                 & 108 \\
+% \quad 3-5 Matching Events               & 128 \\
+% \quad 6+ Matching Events                & 90 \\
+% \midrule
+% Max. Chapters Referenced per Query    & 17 \\
+% Min. Chapters Referenced per Query    & 0 \\
+% \bottomrule
+% \end{tabular}
+% \end{table}
+
+
+\begin{table}[htbp]
+\centering
+\small
+\begin{tabular}{@{}ll@{}} % Changed to 'll' for left alignment of values too, if preferred
+\toprule
+Statistic                               & Value \\
+\midrule
+Number of Chapters                      & 200 \\
+Total Tokens                            & 102,870 \\
+Total Queries (QA Pairs)                & 686 \\
+Queries by Event Category               & \\ % Header for the next line
+\quad (0 / 1 / 2 / 3-5 / 6+ Cues)     & 180 / 180 / 108 / 128 / 90 \\
+\midrule
+Max. Chapters Referenced per Query      & 17 \\
+Min. Chapters Referenced per Query      & 0 \\
+\bottomrule
+\end{tabular}
+\caption{\textbf{EpBench-200 Dataset Statistics.} The statistics for around 1M token Epbench-2000 are presented in \textbf{Appendix F} }
+\label{tab:dataset_stats_revised}
+\end{table}

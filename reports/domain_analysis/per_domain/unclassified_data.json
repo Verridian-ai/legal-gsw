@@ -1,0 +1,24 @@
+{
+  "domain_name": "unclassified",
+  "total_documents": 0,
+  "date_range": {
+    "min": null,
+    "max": null
+  },
+  "type_distribution": {},
+  "jurisdiction_distribution": {},
+  "source_distribution": {},
+  "category_breakdown": {},
+  "year_distribution": {},
+  "court_codes": {},
+  "text_stats": {
+    "min": 0,
+    "max": 0,
+    "mean": 0,
+    "median": 0,
+    "std": 0
+  },
+  "legal_terms": {},
+  "sample_citations": [],
+  "generated_at": "2025-11-25T11:38:55.489262"
+}

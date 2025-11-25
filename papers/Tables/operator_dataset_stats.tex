@@ -1,0 +1,22 @@
+% Please add the following required packages to your document preamble:
+% \usepackage{booktabs}
+\begin{table}[h]
+\centering
+\small\addtolength{\tabcolsep}{-3pt}
+\begingroup
+\renewcommand{\arraystretch}{0.4} % Default value: 1
+\begin{tabular}{@{}c|c|c|c@{}}
+\toprule
+\textbf{Situation Label}              & \textbf{Documents} & \textbf{Sentences} & \textbf{Tokens}  \\ \midrule
+\textit{crime and justice}      & 80  & 1209  & 100,635 \\ \midrule
+\textit{fire fighting}          & 79   & 1116  & 87,901  \\ \midrule
+\textit{technology development} & 81  & 1334  & 122,493 \\ \midrule
+\textit{healthcare}             & 81  & 1259  & 117,962 \\ \midrule
+\textit{economy}                & 78   & 1264   & 110,605  \\ \bottomrule
+\end{tabular}
+\endgroup
+\caption{\textbf{Data Statistics:} Situation-specific news reports are sampled from GDELT.
+Each document (or article) is split into short contexts $C_1, \dots, C_N$ (of $3$ sentences) before being passed into the Operator to generate the sematic representation.  
+}
+\label{tab:operator_data}
+\end{table}

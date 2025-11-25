@@ -1,0 +1,118 @@
+{
+  "domain_name": "torts",
+  "total_documents": 134,
+  "date_range": {
+    "min": "1995-08-03",
+    "max": "2024-07-01"
+  },
+  "type_distribution": {
+    "decision": 106,
+    "primary_legislation": 17,
+    "secondary_legislation": 9,
+    "bill": 2
+  },
+  "jurisdiction_distribution": {
+    "new_south_wales": 98,
+    "commonwealth": 19,
+    "tasmania": 4,
+    "south_australia": 1,
+    "queensland": 10,
+    "western_australia": 2
+  },
+  "source_distribution": {
+    "nsw_caselaw": 87,
+    "high_court_of_australia": 14,
+    "nsw_legislation": 11,
+    "tasmanian_legislation": 4,
+    "south_australian_legislation": 1,
+    "queensland_legislation": 10,
+    "western_australian_legislation": 2,
+    "federal_court_of_australia": 5
+  },
+  "category_breakdown": {
+    "Tort_Negligence": 65,
+    "Tort_Defamation": 55,
+    "Comp_Motor_Accidents": 10,
+    "Comp_Workers": 2,
+    "Tort_Institutional": 2
+  },
+  "year_distribution": {
+    "2010": 9,
+    "2021": 12,
+    "2020": 6,
+    "2004": 3,
+    "2005": 1,
+    "2015": 4,
+    "2002": 3,
+    "2023": 5,
+    "2024": 6,
+    "1999": 2,
+    "2007": 6,
+    "2019": 5,
+    "2013": 4,
+    "2022": 6,
+    "1997": 1,
+    "2014": 8,
+    "2012": 3,
+    "2009": 3,
+    "2017": 4,
+    "2006": 1,
+    "2018": 3,
+    "2016": 5,
+    "2011": 8,
+    "2003": 3,
+    "2008": 3,
+    "1995": 1,
+    "1996": 1,
+    "2001": 1,
+    "2000": 1
+  },
+  "court_codes": {
+    "NSWDC": 37,
+    "HCA": 14,
+    "NSWSC": 44,
+    "NSWCA": 5,
+    "FCA": 5,
+    "NSWDDT": 1
+  },
+  "text_stats": {
+    "min": 11332,
+    "max": 29771,
+    "mean": 21541.666666666668,
+    "median": 23522,
+    "std": 9377.658040968083
+  },
+  "legal_terms": {
+    "breach": 2,
+    "negligence": 2,
+    "liability": 2,
+    "evidence": 2,
+    "costs": 2,
+    "order": 2,
+    "judgment": 2,
+    "damages": 1
+  },
+  "sample_citations": [
+    "Mudford v Great Lakes Council [2010] NSWDC 109",
+    "Reader's Digest Services Pty Ltd v Lamb [1982] HCA 4",
+    "Motor Accidents (Lifetime Care and Support) Act 2006 (NSW)",
+    "Civil Liability Act 2002 (Tas)",
+    "Gaskin v Ollerenshaw [2010] NSWSC 791",
+    "HRYBYNYUK v. MAZUR [2004] NSWCA 374",
+    "Proclamation under the Defamation Act 2005 (Tas)",
+    "Sakr v Australian Broadcasting Corporation (No. 2) [2015] NSWDC 34",
+    "Hill v Van Erp [1997] HCA 9",
+    "Proclamation under the Civil Liability Act 2002 (Tas)",
+    "Civil Liability Act 1936 (SA)",
+    "Civil Liability Act 2003 (Qld)",
+    "Carroll v Nationwide News Pty Limited [1999] NSWSC 856",
+    "Protecting Queenslanders from Violent and Child Sex Offenders Amendment Bill 2018* (Qld)",
+    "Law Reform (Contributory Negligence and Tortfeasors' Contribution) Act 1947 (WA)",
+    "Addison v The Owners \u2013 Strata Plan No. 32680 [2010] NSWDC 251",
+    "Sekuloski v Deku & Anor [2007] NSWDC 122",
+    "Motor Accidents Compensation (Determination of Loss) Order 2009 (2009-489) (NSW)",
+    "Workers Compensation Act 1987 (NSW)",
+    "Defamation Act 2005 (Tas)"
+  ],
+  "generated_at": "2025-11-25T11:38:55.485338"
+}

@@ -1,0 +1,44 @@
+% \begin{table}[htbp]
+% \centering
+% \caption{\textbf{GSW's Efficiency}: Average context tokens passed to the LLM per query on EpBench, and the estimated cost to answer that query. GSW variants achieve the best performance (detailed in Table~\ref{Table:mainres_with_gsw_variants_filled_sep}) with the lowest token counts and costs, as highlighted below. Best score in each column is \textbf{bold}; second best is \underline{underlined}.}
+% \label{tab:token_cost_comparison_updated} %Consider updating label if you keep this version
+% \small 
+% \setlength{\tabcolsep}{15pt} % Increased column spacing
+% \begin{tabular}{@{}lrr@{}} 
+% \toprule
+% Method & \multicolumn{1}{c}{Avg. Tokens} & \multicolumn{1}{c}{Avg. Cost.\footnotemark} \\ 
+% \midrule
+% Vanilla LLM                         & $\sim$101,120          & $\sim$\$0.2528 \\
+% Embedding RAG                       & $\sim$8,771            & $\sim$\$0.0219 \\
+% GraphRAG \cite{Edge2025GraphRAG}    & $\sim$7,340            & $\sim$\$0.0184 \\
+% HippoRAG \cite{JimenezGutierrez2025HippoRAG} & $\sim$8,771            & $\sim$\$0.0219 \\
+% LightRAG \cite{Guo2024LightRAG}     & $\sim$40,476           & $\sim$\$0.1012 \\
+% \midrule
+% GSW (Ours - String)                 & \underline{$\sim$6,340} & \underline{$\sim$\$0.0159} \\
+% \textbf{GSW (Ours - Embed)}         & \textbf{$\sim$5,608}   & \textbf{$\sim$\$0.0140} \\
+% \bottomrule
+% \end{tabular}
+% \end{table}
+% \footnotetext{Cost calculated using GPT-4o pricing of \$2.50 per million tokens (as of May 2024, pricing may vary).}
+
+\begin{table}[htbp]
+\centering
+\small 
+\setlength{\tabcolsep}{4pt} % Reduced column spacing to fit in double-column format
+\begin{tabular}{@{}lrr@{}} 
+\toprule
+Method & \multicolumn{1}{c}{Avg. Tokens} & \multicolumn{1}{c}{Avg. Cost\footnotemark} \\ % Corrected "Cost." to "Cost"
+\midrule
+Vanilla LLM                         & $\sim$101,120          & $\sim$\$0.2528 \\
+Embedding RAG                       & $\sim$8,771            & $\sim$\$0.0219 \\
+GraphRAG \cite{Edge2025GraphRAG}    & \underline{$\sim$7,340} & \underline{$\sim$\$0.0184} \\
+HippoRAG2 \cite{JimenezGutierrez2025HippoRAG} & $\sim$8,771            & $\sim$\$0.0219 \\
+LightRAG \cite{Guo2024LightRAG}     & $\sim$40,476           & $\sim$\$0.1012 \\
+\midrule
+GSW (Ours)                 & \textbf{$\sim$3,587}   & \textbf{$\sim$\$0.0090} \\
+\bottomrule
+\end{tabular}
+\caption{\textbf{GSW's Efficiency}: Average context tokens passed to the LLM per query on EpBench-200, and the estimated cost to answer that query. GSW achieves the best performance (detailed in Table~\ref{Table:epbench_200_bootstrap}) with the significantly lowest token count and cost, as highlighted below. Best score in each column is \textbf{bold}; second best is \underline{underlined}.}
+\label{tab:token_cost_comparison_final} % Updated label
+\end{table}
+\footnotetext{Cost calculated using GPT-4o pricing of \$2.50 per million tokens.}

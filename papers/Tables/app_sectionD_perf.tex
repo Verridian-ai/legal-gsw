@@ -1,0 +1,76 @@
+% \begin{table*}[!htbp]
+%   \caption{Qualitative Performance Comparison on Selected Queries (referencing Query IDs from Table \ref{tab:qual_queries_answers})}
+%   \label{tab:qual_analysis_comparison}
+%   \centering
+%   \small % Use \small for table content
+%   % Query ID & Method are left aligned. Token Count centered. Error & Analysis are X columns.
+%   \begin{tabularx}{\linewidth}{@{}llc >{\raggedright\arraybackslash}X >{\raggedright\arraybackslash}X@{}}
+%     \toprule
+%     \textbf{Query ID} & \textbf{Method} & \textbf{Token Count} & \textbf{Error Description } & \textbf{Analysis/Reason } \\
+%     \midrule
+%     % --- Query 1 ---
+%     Q1 & GSW           & 2011 & None  & NA \\
+%     Q1 & HippoRAG2     & 9289 & None     & NA \\
+%     Q1 & GraphRAG      & 8189 & Missing 1 event      & Info not available in retrieved context. \\
+%     \midrule % Separator line
+%     % --- Query 2 ---
+%     Q2 & GSW           & 1568      & None & NA \\
+%     Q2 & HippoRAG2     & 8225      & Hallucinated 3 extra locations.      & Too much irrelevant information resulted in LLM hallucination. \\
+%     Q2 & GraphRAG      & 8220      & Missed 1 location and hallucinated 2      & All required info present in context but LLM hallucinated. \\
+%     \midrule % Separator line
+%     % --- Query 3 ---
+%     Q3 & GSW           & 1726      & None & NA \\
+%     Q3 & HippoRAG2     & 8475      & Missed 1 location      & Info not available in retrieved context. \\
+%     Q3 & GraphRAG      & 7058      & Missed 1 event      & Info not available in retrieved context. \\
+%     \midrule % Separator line
+%     % --- Query 4 ---
+%     Q4 & GSW           & 5530      & None & NA \\
+%     Q4 & HippoRAG2     & 8614      & Missed 2 locations      & All required info present in context but LLM failed to answer. \\
+%     Q4 & GraphRAG      & 7936      & Missed 3 locations and Hallucinated 1       & All required info present in context but LLM hallucinated. \\
+%     \midrule % Separator line
+%     % --- Query 5 ---
+%     Q5 & GSW           & 6452      & None & NA \\
+%     Q5 & HippoRAG2     & 8355      & Missed 1 location      & Info not available in retrieved context \\
+%     Q5 & GraphRAG      & 7936      & Missed 2 locations      & Info not available in retrieved context. \\
+%     \bottomrule
+%   \end{tabularx}
+% \end{table*}
+
+\begin{table*}[!htbp]
+  \centering
+  \scriptsize % Use smaller font to fit better
+  % Query ID & Method are left aligned. Token Count centered. Error & Analysis are X columns.
+  \begin{tabularx}{\linewidth}{@{}llc >{\raggedright\arraybackslash}X >{\raggedright\arraybackslash}X@{}}
+    \toprule
+    \textbf{Query ID} & \textbf{Method} & \textbf{Token Count} & \textbf{Error Description} & \textbf{Analysis/Reason} \\
+    \midrule
+    % --- Query 1 ---
+    % Q1 spans 3 rows for GSW, HippoRAG2, GraphRAG
+    \multirow{3}{*}{Q1} & GSW           & 2011 & None & NA \\
+                        & HippoRAG2     & 9289 & None & NA \\
+                        & GraphRAG      & 8189 & Missing 1 location & Info not available in retrieved context. \\
+    \midrule % Separator line
+    % --- Query 2 ---
+    \multirow{3}{*}{Q2} & GSW           & 1568 & None & NA \\
+                        & HippoRAG2     & 8225 & Hallucinated 3 extra locations. & Too much irrelevant information resulted in LLM hallucination. \\
+                        & GraphRAG      & 8220 & Missed 1 location and Hallucinated 2 & All required info present in context but LLM hallucinated. \\
+    \midrule % Separator line
+    % --- Query 3 ---
+    \multirow{3}{*}{Q3} & GSW           & 1726 & None & NA \\
+                        & HippoRAG2     & 8475 & Missed 1 location & Info not available in retrieved context. \\
+                        & GraphRAG      & 7058 & Missed 1 location & Info not available in retrieved context. \\
+    \midrule % Separator line
+    % --- Query 4 ---
+    \multirow{3}{*}{Q4} & GSW           & 5530 & None & NA \\
+                        & HippoRAG2     & 8614 & Missed 2 locations & All required info present in context but LLM hallucinated. \\
+                        & GraphRAG      & 7936 & Missed 3 locations and Hallucinated 1 & All required info present in context but LLM hallucinated. \\
+    \midrule % Separator line
+    % --- Query 5 ---
+    \multirow{3}{*}{Q5} & GSW           & 6452 & None & NA \\
+                        & HippoRAG2     & 8355 & Missed 1 location & Info not available in retrieved context \\ % Note: added period if missing
+                        & GraphRAG      & 7936 & Missed 2 locations & Info not available in retrieved context. \\
+    \bottomrule
+  \end{tabularx}
+  \caption{Qualitative Performance Comparison on Selected Queries (referencing Query IDs from Table \ref{tab:qual_queries_answers})}
+  \label{tab:qual_analysis_comparison}
+\end{table*}

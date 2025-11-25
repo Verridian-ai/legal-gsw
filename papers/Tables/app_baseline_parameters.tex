@@ -1,0 +1,66 @@
+\begin{table}[ht]
+\centering
+\scriptsize
+\begin{tabular}{@{}ll@{}}
+\toprule
+\textbf{Setting} & \textbf{Value} \\
+\midrule
+Mode & Local \\
+LLM Model & \texttt{gpt-4o} \\
+Embedding Model & \texttt{text-embedding-3-small} \\
+Response Type & Multiple paragraphs \\
+Max Context Tokens & 12000 \\
+Text Unit Proportion & 0.5 \\
+Community Report Proportion & 0.1 \\
+Top-K Entities & 10 \\
+Top-K Relationships & 10 \\
+Include Entity Rank & True \\
+Include Relationship Weight & True \\
+Include Community Rank & False \\
+\bottomrule
+\end{tabular}
+\caption{GraphRAG Baseline Parameter}
+\label{tab:graphrag-settings}
+\end{table}
+
+
+
+\begin{table}[ht]
+\centering
+\scriptsize
+\begin{tabular}{@{}ll@{}}
+\toprule
+\textbf{Setting} & \textbf{Value} \\
+\midrule
+LLM Indexing Model & \texttt{gpt-4o-mini} \\
+LLM Answering Model & \texttt{gpt-4o} \\
+Embedding Model & \texttt{NV-Embed-v2} \\
+QA Top-K & 17 \\
+Linking Top-K & 5 \\
+Retrieval Top-K & 200 \\
+\bottomrule
+\end{tabular}
+\caption{HippoRAG2 Baseline Parameter}
+\label{tab:hipporag-settings}
+\end{table}
+
+\begin{table}[ht]
+\centering
+\scriptsize
+\begin{tabular}{@{}ll@{}}
+\toprule
+\textbf{Setting} & \textbf{Value} \\
+\midrule
+LLM Model & \texttt{gpt-4o} \\
+Embedding Model & \makecell[l]{\texttt{text-embedding-3-}\\\texttt{small}} \\
+Retrieval Mode & Hybrid \\
+Chunk Token Size & 1200 \\
+Chunk Overlap Size & 100 \\
+\bottomrule
+\end{tabular}
+\caption{LightRAG Baseline Parameter}
+\label{tab:lightrag-settings}
+\end{table}
+
+
+
