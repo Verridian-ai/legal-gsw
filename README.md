@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="docs/assets/banner.png" alt="Legal GSW Banner" width="100%">
+  <img src="docs/assets/rag_vs_gsw.png" alt="Legal GSW - Smarter AI" width="100%">
 </p>
 
 <h1 align="center">Legal GSW</h1>
@@ -27,14 +27,36 @@
 
 ---
 
-## Overview
+## Video Overview
+
+<p align="center">
+  <a href="docs/assets/how_ai_learns.mp4">
+    <img src="docs/assets/gsw_episodic_memory.png" alt="How AI Learns to Remember - Click to Watch" width="80%">
+  </a>
+</p>
+
+<p align="center">
+  <em>Click image above to watch: How AI Learns to Remember</em>
+</p>
+
+---
+
+## The Problem: Why Standard AI Fails Complex Analysis
+
+<p align="center">
+  <img src="docs/assets/beyond_search.png" alt="Beyond Search: Building a True Legal Reasoning Engine" width="100%">
+</p>
 
 **Legal GSW** implements the **Global Semantic Workspace (GSW)** model for legal document understanding, based on the research paper [*"Functional Structure of Episodic Memory"*](https://arxiv.org/abs/2511.07587).
 
 The system extracts **actor-centric episodic memories** from legal documents - tracking WHO did WHAT, WHEN, WHERE, and WHY - enabling sophisticated legal reasoning and analysis.
 
+---
+
+## How GSW Works
+
 <p align="center">
-  <img src="docs/assets/motivation.png" alt="GSW Motivation" width="80%">
+  <img src="docs/assets/gsw_episodic_memory.png" alt="GSW: Giving Language Models a Human-like Episodic Memory" width="100%">
 </p>
 
 ### Why Actor-Centric?
@@ -47,6 +69,10 @@ Traditional NLP approaches focus on **verb-centric** representations (Subject-Ve
 | **Actor-Centric (GSW)** | Entities + States + Roles | `John: {roles: [husband, applicant], states: [married->separated], linked: [Jane, Property, Children]}` |
 
 The actor-centric model mirrors how human memory works - we remember **people and their characteristics** across time, not isolated actions.
+
+<p align="center">
+  <img src="docs/assets/motivation.png" alt="GSW Motivation" width="80%">
+</p>
 
 ---
 
@@ -130,6 +156,31 @@ The actor-centric model mirrors how human memory works - we remember **people an
 
 ---
 
+## Performance Comparison
+
+### GSW vs Other RAG Methods (EpBench-200)
+
+| Method | Overall F1-Score | Avg. Context Tokens |
+|--------|------------------|---------------------|
+| Embedding RAG | 0.771 | ~8,771 |
+| HippoRAG2 | 0.753 | ~8,771 |
+| GraphRAG | 0.714 | ~7,340 |
+| **GSW (Ours)** | **0.850** | **~3,587** |
+
+**Key Results:**
+- **+10% accuracy** over best competitor
+- **-51% token usage** vs standard RAG
+- **+20% recall** on complex reasoning queries
+
+### Token Compression (TOON)
+
+| Format | Tokens | Reduction |
+|--------|--------|-----------|
+| JSON | 575 | - |
+| TOON | 167 | **71%** |
+
+---
+
 ## Installation
 
 ### Prerequisites
@@ -141,7 +192,7 @@ The actor-centric model mirrors how human memory works - we remember **people an
 
 ```bash
 # Clone the repository
-git clone https://github.com/YOUR_USERNAME/legal-gsw.git
+git clone https://github.com/Verridian-ai/legal-gsw.git
 cd legal-gsw
 
 # Create virtual environment
@@ -301,24 +352,6 @@ This implementation is based on:
 
 ---
 
-## Performance
-
-### Token Compression (TOON)
-
-| Format | Tokens | Reduction |
-|--------|--------|-----------|
-| JSON | 575 | - |
-| TOON | 167 | **71%** |
-
-### Processing Speed
-
-| Corpus | Documents | Time | Rate |
-|--------|-----------|------|------|
-| Family Law | 194 | ~30 min | 6-7 docs/min |
-| Full Corpus | 232K | ~75 hrs | 17 docs/sec |
-
----
-
 ## Roadmap
 
 - [x] Phase 1: Core GSW extraction pipeline
@@ -367,5 +400,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
   <a href="https://arxiv.org/abs/2511.07587">Paper</a> |
   <a href="#quick-start">Quick Start</a> |
   <a href="#architecture">Architecture</a> |
-  <a href="https://github.com/YOUR_USERNAME/legal-gsw/issues">Issues</a>
+  <a href="https://github.com/Verridian-ai/legal-gsw/issues">Issues</a>
 </p>
